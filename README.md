@@ -3,6 +3,8 @@
 
 ![Grok: Imagin - NSFW Bible](https://i.imgur.com/z9C2ZZS.jpeg)
 
+Try out the Grok:Imagine "[Architecture](https://finecomputer14451.github.io/Grok-Imagine-NSFW-Bible/index.html)" Prompt Builder 
+
 **Disclaimer**  
 This is a **community-curated, unofficial guide** (inspired from the "Ultimate Ethical NSFW Prompting Guide" series on r/Grok_Porn, [Feb 2026 update](https://www.reddit.com/r/Grok_Porn/comments/1qt18w3/guide_my_ultimate_ethical_nsfw_prompting_guide/)), X discussions, and power-user experimentation following the Grok Imagine 1.0 global release (February 2, 2026).  
 
