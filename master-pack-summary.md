@@ -1,6 +1,6 @@
 # Master Pack Summary – 237 Entries
 
-This file contains a readable summary of the full master pack. For the complete raw JSON see [master-pack-full.json](../master-pack-full.json).
+Full NSFW Bible master pack (237 entries). For the complete raw JSON see [master-pack-full.json](master-pack-full.json). Open the builder at [index-nsfw.html](index-nsfw.html) or [index.html](index.html).
 
 ### Quick Stats
 - Total: **237**
