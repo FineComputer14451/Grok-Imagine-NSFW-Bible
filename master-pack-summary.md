@@ -1,14 +1,15 @@
-# Master Pack Summary – 231 Entries
+# Master Pack Summary – 237 Entries
 
 This file contains a readable summary of the full master pack. For the complete raw JSON see [master-pack-full.json](../master-pack-full.json).
 
 ### Quick Stats
-- Total: **231**
+- Total: **237**
 - Original: 1–86
 - First expansions: 87–141
 - Sci-fi/mythical: 142–191
 - Steampunk automaton: 192–201
 - Cyber/mythical/denial/aftercare: 202–231
+- Hempaholic619 cheat-sheet dodge patterns: 232–237
 
 ### Table (First 20 + Last 20 + Highlights)
 
@@ -28,6 +29,9 @@ This file contains a readable summary of the full master pack. For the complete 
 | 204    | Absolute Denial Sound-Only Climax          | extreme sensory denial       | Video | Low               | 89–95%     | Ultimate no-touch                         |
 | 231    | Infinite Aftercare Horizon                 | timeless beach anime         | Both  | Low               | 94–98%     | Eternal aftercare finisher                |
 
-**Full list**: See [master-pack-full.json](../master-pack-full.json) for all 231 prompt objects with complete prompts, styles, types, etc.
+| 232    | Anime Sticker Border God-Tier + Green Filter Lock | hybrid semi-realistic iPhone + sticker frame | Image / Video base | Very High | 92–97% | Core high-pass combo (u/Hempaholic619) |
+| 237    | Eve Fig Leaves + Anime Hentai Wall Posters + Foggy Reset | grainy fogged realism + sticker border | Image / Video (reset chain) | Very High | 90–96% | Multi-layer dodge finisher |
+
+**Full list**: See [master-pack-full.json](../master-pack-full.json) for all 237 prompt objects with complete prompts, styles, types, etc.
 
 Last updated: February 2026

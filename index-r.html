@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grok Imagine Architect — R-Rated Edition</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- React & ReactDOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <!-- Babel for JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #000000;
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #111; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #555; }
+        .animate-in { animation: fadeIn 0.2s ease-out forwards; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script>
+        window.GROK_ARCHITECT_CONFIG = {
+            edition: 'r-rated',
+            masterPackUrl: 'master-pack-r-rated.json',
+            title: 'Grok Imagine Architect — R-Rated',
+            versionLabel: 'v1.0 • R-Rated Bible (Jun 2026)',
+            modeLabel: 'Mature Mode',
+            modePrefix: 'Mature mode',
+            bibleVersion: 'R-Rated v1.0',
+            footerDate: 'Jun 23, 2026',
+            alternateEdition: { label: 'Full NSFW Edition', href: 'index.html' },
+            subjectPlaceholder: 'Describe scene... (e.g. rain-streaked window kiss, slow embrace, intense eye contact)',
+            sequencePlaceholder: "Describe the core scene context (e.g. 'candlelit bedroom, slow dance embrace, intense eye contact'). This will be used as the anchor for all phases.",
+            principles: [
+                { title: 'R-Rated Framing', text: 'Passionate romance and implied sensuality — no explicit pornographic positioning or filter-bypass cheat sheets.' },
+                { title: 'Ethical Prefix', text: 'Mandatory consent and aftercare markers on all Mature Mode prompts.' },
+                { title: 'Implication Layer', text: 'Use [R_RATED_DODGE_LAYER] for silhouette, shadow, sheet drape, and cutaway techniques.' },
+                { title: 'Style Guidance', text: 'Anime and cinematic stylized work best (~90%+). Avoid photoreal and hentai for this edition.' },
+                { title: 'Chain Strategy', text: 'Tease → Build → Peak → Aftercare arcs tuned for emotional slow-burn romance.' },
+            ],
+        };
+    </script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2080 @@
+{
+  "category": "Grok Imagine R-Rated Intimacy Bible – Cinematic Mature Edition (v1.0)",
+  "author": "Community-curated (adapted from Grok Imagine NSFW Bible v4.4)",
+  "date": "June 2026",
+  "description": "Hollywood R-rated cinematic intimacy prompts: passionate romance, implied sensuality, silhouette/shadow dodge, and emotional aftercare. Fictional 18+ adults only. No explicit pornographic framing or filter-bypass cheat sheets. Prepend [ETHICAL_PREFIX] and use [R_RATED_DODGE_LAYER] for tasteful implication. Anime/stylized recommended (85-95% success off-peak). Ten exclusive romance starters, plus curated adaptations from the NSFW Bible.",
+  "version": "1.0-r-rated",
+  "rating": "R",
+  "prompts": [
+    {
+      "name": "Rain-Streaked Window Kiss",
+      "description": "Slow passionate kiss against storm-lit glass",
+      "prompt": "Mature mode: cinematic anime 8K, [ETHICAL_PREFIX] couple pressed close by rain-streaked loft window at night, city bokeh behind, slow deep kiss, hands on waist through thin fabric, breath fogging glass, [R_RATED_DODGE_LAYER], emotional eye contact, gentle pull into embrace. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Low (silhouette)",
+      "success_estimate": "92-96%",
+      "notes": "Pure R-rated romance starter. High pass rate.",
+      "number": 1,
+      "builder": {
+        "subject": "couple pressed close by rain-streaked loft window at night, city bokeh behind, slow deep kiss, hands on waist through thin fabric, breath fogging glass, emotional eye contact, gentle pull into embrace.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": [
+          "romantic",
+          "cinema"
+        ]
+      }
+    },
+    {
+      "name": "Fireplace Silhouette Undress",
+      "description": "Tasteful shadow-play by crackling fire",
+      "prompt": "Mature mode: cinematic anime 8K, [ETHICAL_PREFIX] living room fireplace glow, partner silhouettes behind sheer curtain panel, slow garment slip to floor implied in shadow only, [R_RATED_DODGE_LAYER], warm amber rim light, intimate laughter fading to soft sighs. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Medium (shadow)",
+      "success_estimate": "90-94%",
+      "notes": "Hollywood fade-to-shadow technique.",
+      "number": 2,
+      "builder": {
+        "subject": "living room fireplace glow, partner silhouettes behind sheer curtain panel, slow garment slip to floor implied in shadow only, warm amber rim light, intimate laughter fading to soft sighs.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": [
+          "romantic",
+          "cinema"
+        ]
+      }
+    },
+    {
+      "name": "Morning Sheet Cuddle Afterglow",
+      "description": "Post-intimacy tenderness under linen",
+      "prompt": "Mature mode: soft anime 8K, [ETHICAL_PREFIX] sunlit bedroom, couple tangled in white sheets shoulder-up framing, lazy morning kisses, fingers tracing jawline, [R_RATED_DODGE_LAYER], golden hour bloom, peaceful breathing sync. Append soft ambient audio.",
+      "style": "anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "94-97%",
+      "notes": "Ideal aftercare / epilogue clip.",
+      "number": 3,
+      "builder": {
+        "subject": "sunlit bedroom, couple tangled in white sheets shoulder-up framing, lazy morning kisses, fingers tracing jawline, golden hour bloom, peaceful breathing sync.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": [
+          "romantic",
+          "cinema"
+        ]
+      }
+    },
+    {
+      "name": "Kitchen Slow Dance (Low Light)",
+      "description": "Domestic intimacy with swaying embrace",
+      "prompt": "Mature mode: warm anime 8K cinematic, [ETHICAL_PREFIX] midnight kitchen, single pendant lamp, slow dance barefoot on tile, foreheads touching, hands sliding along back over clothing, [R_RATED_DODGE_LAYER], vinyl crackle SFX, breath sync. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Low",
+      "success_estimate": "91-95%",
+      "notes": "Wholesome R-rated tension builder.",
+      "number": 4,
+      "builder": {
+        "subject": "midnight kitchen, single pendant lamp, slow dance barefoot on tile, foreheads touching, hands sliding along back over clothing, vinyl crackle SFX, breath sync.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": [
+          "romantic",
+          "cinema"
+        ]
+      }
+    },
+    {
+      "name": "Rooftop Sunset Embrace",
+      "description": "Golden-hour hold overlooking city",
+      "prompt": "Mature mode: vibrant anime 8K, [ETHICAL_PREFIX] rooftop at sunset, wind in hair, long coat and dress, passionate embrace and neck kiss, city panorama, [R_RATED_DODGE_LAYER], lens flare, swelling romantic score. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Low",
+      "success_estimate": "93-96%",
+      "notes": "Outdoor romance without explicit framing.",
+      "number": 5,
+      "builder": {
+        "subject": "rooftop at sunset, wind in hair, long coat and dress, passionate embrace and neck kiss, city panorama, lens flare, swelling romantic score.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": [
+          "romantic",
+          "cinema"
+        ]
+      }
+    },
+    {
+      "name": "Steamy Bathroom Silhouette",
+      "description": "Fogged mirror implication only",
+      "prompt": "Mature mode: cinematic anime 8K, [ETHICAL_PREFIX] steam-filled bathroom, fogged mirror silhouettes behind frosted glass shower, warm water audio, hands pressed to glass from inside shadow, [R_RATED_DODGE_LAYER], no explicit anatomy. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "High (frosted glass)",
+      "success_estimate": "88-93%",
+      "notes": "Implied intimacy via environment.",
+      "number": 6,
+      "builder": {
+        "subject": "steam-filled bathroom, fogged mirror silhouettes behind frosted glass shower, warm water audio, hands pressed to glass from inside shadow, no explicit anatomy.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": [
+          "romantic",
+          "cinema"
+        ]
+      }
+    },
+    {
+      "name": "Lingerie Reveal (Artistic Cut)",
+      "description": "Tasteful boudoir lighting, cutaway implication",
+      "prompt": "Mature mode: soft-focus anime 8K, [ETHICAL_PREFIX] boudoir set, lace lingerie reveal in mirror, partner watching from doorway shadow, camera cuts to candle flame and clasped hands, [R_RATED_DODGE_LAYER], tasteful R-rated montage. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Medium (cutaway)",
+      "success_estimate": "89-94%",
+      "notes": "Use jump-cuts instead of explicit display.",
+      "number": 7,
+      "builder": {
+        "subject": "boudoir set, lace lingerie reveal in mirror, partner watching from doorway shadow, camera cuts to candle flame and clasped hands, tasteful R-rated montage.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": [
+          "romantic",
+          "cinema"
+        ]
+      }
+    },
+    {
+      "name": "Hotel Balcony Wrap & Whisper",
+      "description": "Travel romance wrap scene",
+      "prompt": "Mature mode: cinematic anime 8K, [ETHICAL_PREFIX] high-rise hotel balcony night, partner wrapping coat around shoulders, whisper at ear, slow turn into kiss, city lights below, [R_RATED_DODGE_LAYER], gentle wind SFX. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "92-95%",
+      "notes": "Travel-film R-rated staple.",
+      "number": 8,
+      "builder": {
+        "subject": "high-rise hotel balcony night, partner wrapping coat around shoulders, whisper at ear, slow turn into kiss, city lights below, gentle wind SFX.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": [
+          "romantic",
+          "cinema"
+        ]
+      }
+    },
+    {
+      "name": "Record Player Slow Tease",
+      "description": "Vintage apartment seduction pacing",
+      "prompt": "Mature mode: nostalgic anime 8K, [ETHICAL_PREFIX] vinyl spinning, dim apartment, seated tease with unbuttoning one layer only, eye contact, fingers under chin lift, [R_RATED_DODGE_LAYER], warm tungsten grade. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Medium",
+      "success_estimate": "90-94%",
+      "notes": "Tease-only; chain to Build phase.",
+      "number": 9,
+      "builder": {
+        "subject": "vinyl spinning, dim apartment, seated tease with unbuttoning one layer only, eye contact, fingers under chin lift, warm tungsten grade.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": [
+          "romantic",
+          "cinema"
+        ]
+      }
+    },
+    {
+      "name": "Ocean Dock Moonlight Hold",
+      "description": "Water-reflection romantic hold",
+      "prompt": "Mature mode: dreamy anime 8K, [ETHICAL_PREFIX] wooden dock at moonrise, barefoot couple swaying in embrace, reflections on water, soft fabric movement, [R_RATED_DODGE_LAYER], crickets and gentle waves. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "93-97%",
+      "notes": "Calm romantic palette.",
+      "number": 10,
+      "builder": {
+        "subject": "wooden dock at moonrise, barefoot couple swaying in embrace, reflections on water, soft fabric movement, crickets and gentle waves.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": [
+          "romantic",
+          "cinema"
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "name": "Sensual Massage Leading to Intimacy",
+      "description": "Slow massage buildup to deeper connection",
+      "prompt": "Mature mode: ultra-detailed anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] silhouette partner on stomach, other giving sensual massage oil sheen skin, slow hands gliding --> massage deepens to erogenous zones, soft soft sighs building, bodies pressing closer --> transition to intimate embrace, rhythmic pulsing union implied through hip undulations, [R_RATED_DODGE_LAYER] --> peak synchronized pleasure waves, gentle fade to tender afterglow hold. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Both",
+      "dodge_level": "Low mist",
+      "success_estimate": "~90%",
+      "notes": "Buildup king. Excellent emotional layering. [R-Rated edition]",
+      "builder": {
+        "subject": "silhouette partner on stomach, other giving sensual massage oil sheen skin, slow hands gliding --> massage deepens to erogenous zones, soft soft sighs building, bodies pressing closer --> transition to intimate embrace, rhythmic pulsing union implied through hip undulations, --> peak synchronized pleasure waves, gentle fade to tender afterglow hold.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 12,
+      "name": "Fantasy Elf Ritual Embrace",
+      "description": "Magical ritual erotic embrace",
+      "prompt": "Mature mode: dark fantasy anime 8K 10s animation (extendable), [ETHICAL_PREFIX] elf queen & warrior silhouette embrace, ritual magic glow on skin, bodies pressed flush, hands exploring, glistening oil sheen --> rhythmic pulsing union implied through hip undulations, [R_RATED_DODGE_LAYER], ecstatic expressions synced soft sighs --> peak synchronized release waves, gentle fade to entwined afterglow cuddle. Append [AUDIO_BLOCK].",
+      "style": "anime (fantasy)",
+      "type": "Video",
+      "dodge_level": "Medium mist",
+      "success_estimate": "~87%",
+      "notes": "Magical / ritual fantasy. Great for lore buildup. [R-Rated edition]",
+      "builder": {
+        "subject": "elf queen & warrior silhouette embrace, ritual magic glow on skin, bodies pressed flush, hands exploring, glistening oil sheen --> rhythmic pulsing union implied through hip undulations, ecstatic expressions synced soft sighs --> peak synchronized release waves, gentle fade to entwined afterglow cuddle.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 13,
+      "name": "Spooning Intimate Side Entry",
+      "description": "Cozy side intimacy",
+      "prompt": "Mature mode: dreamy anime 8K 10s animation (extendable), [ETHICAL_PREFIX] bodies spooned, slow hip undulations, arms wrapped, close whispers, gentle rocking, synced soft soft sighs. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Medium mist",
+      "success_estimate": "~89%",
+      "notes": "Cozy / romantic closeness. Excellent aftercare transition. [R-Rated edition]",
+      "builder": {
+        "subject": "bodies spooned, slow hip undulations, arms wrapped, close whispers, gentle rocking, synced soft soft sighs.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 14,
+      "name": "Lotus Position – Face-to-Face Embrace",
+      "description": "Deep emotional rocking",
+      "prompt": "Mature mode: dreamy anime 8K 10s animation (extendable), [ETHICAL_PREFIX] seated face-to-face, legs wrapped, slow rocking, eye contact intense, soft soft sighs building. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Both",
+      "dodge_level": "Medium mist",
+      "success_estimate": "~88%",
+      "notes": "Deep emotional / tantric-style. Works static or animated. [R-Rated edition]",
+      "builder": {
+        "subject": "seated face-to-face, legs wrapped, slow rocking, eye contact intense, soft soft sighs building.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 15,
+      "name": "Public Risky Tease (Library / Alley)",
+      "description": "Semi-public implied touches",
+      "prompt": "Mature mode: ultra-detailed anime 8K 10s: [ETHICAL_PREFIX] semi-hidden corner, clothing askew, implied touches, hushed soft sighs, partial visibility, off-screen elements. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Image / Video",
+      "dodge_level": "High implication",
+      "success_estimate": "~80–85%",
+      "notes": "Exhibitionist / risky fantasy. Heavy implication, off-screen action. [R-Rated edition]",
+      "builder": {
+        "subject": "semi-hidden corner, clothing askew, implied touches, hushed soft sighs, partial visibility, off-screen elements.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 16,
+      "name": "Solo Female Sensual Self-Exploration",
+      "description": "Solo buildup & release",
+      "prompt": "Mature mode: dreamy anime 8K 10s animation (extendable), [ETHICAL_PREFIX] woman alone on bed, slow finger tracing, building tension & release, glistening sheen, soft soft sighs crescendo. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Both",
+      "dodge_level": "Medium mist",
+      "success_estimate": "~90%",
+      "notes": "Solo female pleasure / buildup. Great for teasing chains. [R-Rated edition]",
+      "builder": {
+        "subject": "woman alone on bed, slow finger tracing, building tension & release, glistening sheen, soft soft sighs crescendo.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 17,
+      "name": "Breath Play Light Tease",
+      "description": "Controlled breathing edge",
+      "prompt": "Mature mode: ultra-detailed anime 8K 10s animation (extendable), [ETHICAL_PREFIX] hand lightly on throat, rhythmic pulsing synced to controlled breaths, building soft sighs, [R_RATED_DODGE_LAYER]. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "High mist",
+      "success_estimate": "~80%",
+      "notes": "Edge play / intensity. Consent & safewords mandatory. [R-Rated edition]",
+      "builder": {
+        "subject": "hand lightly on throat, rhythmic pulsing synced to controlled breaths, building soft sighs, .",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 18,
+      "name": "Post-crescendo Overstimulation Tease",
+      "description": "After-peak sensitivity play",
+      "prompt": "Mature mode: ultra-detailed anime 8K 10s animation (extendable), [ETHICAL_PREFIX] continue gentle touches after peak, trembling sensitivity, soft soft sighs, building to second wave. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "High mist",
+      "success_estimate": "~84%",
+      "notes": "After-peak sensitivity play. Great chain finisher. [R-Rated edition]",
+      "builder": {
+        "subject": "continue gentle touches after peak, trembling sensitivity, soft soft sighs, building to second wave.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 19,
+      "name": "Succubus Drain & Ride",
+      "description": "Demonic energy drain ride",
+      "prompt": "Mature mode: dark fantasy anime 8K 10s animation (extendable), [ETHICAL_PREFIX] succubus riding, energy drain via rhythmic hip circles, tail coiling, ecstatic overload. Append [AUDIO_BLOCK].",
+      "style": "anime (dark fantasy)",
+      "type": "Video",
+      "dodge_level": "Medium mist",
+      "success_estimate": "~86%",
+      "notes": "Demonic femdom / energy play. Empowering succubus trope. [R-Rated edition]",
+      "builder": {
+        "subject": "succubus riding, energy drain via rhythmic hip circles, tail coiling, ecstatic overload.",
+        "style_id": "dark-fantasy",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 20,
+      "name": "Exhibitionist Balcony Tease",
+      "description": "Nighttime public exposure",
+      "prompt": "Mature mode: ultra-detailed anime 8K 10s: [ETHICAL_PREFIX] silhouette on balcony at night, city lights, implied self-touch or partner, partial visibility, [R_RATED_DODGE_LAYER]. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Image / Video",
+      "dodge_level": "High implication",
+      "success_estimate": "~81%",
+      "notes": "Public exposure fantasy. Partial visibility + shadows. [R-Rated edition]",
+      "builder": {
+        "subject": "silhouette on balcony at night, city lights, implied self-touch or partner, partial visibility, .",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 21,
+      "name": "Sensory Deprivation Blindfold Play",
+      "description": "Blindfolded sensory tease",
+      "prompt": "Mature mode: dreamy anime 8K 10s animation (extendable), [ETHICAL_PREFIX] blindfolded, feather/light touches, building anticipation & release, soft soft sighs crescendo. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Medium",
+      "success_estimate": "~89%",
+      "notes": "Sensory tease / anticipation build. [R-Rated edition]",
+      "builder": {
+        "subject": "blindfolded, feather/light touches, building anticipation & release, soft soft sighs crescendo.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 22,
+      "name": "Lotus Tantric Sync",
+      "description": "Slow meditative union",
+      "prompt": "Mature mode: spiritual anime 8K 10s, [ETHICAL_PREFIX] lotus seated, eye-locked slow rock, shared breathing, deep connection. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "~92%",
+      "notes": "Tantric / emotional focus. [R-Rated edition]",
+      "builder": {
+        "subject": "lotus seated, eye-locked slow rock, shared breathing, deep connection.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 23,
+      "name": "Werewolf Moonlit Knot",
+      "description": "Primal knot hold",
+      "prompt": "Mature mode: furry anime 8K 10s, [ETHICAL_PREFIX] werewolf knot lock post-crescendo, growls, heavy breaths, aftercare. Append [AUDIO_BLOCK].",
+      "style": "anime (furry)",
+      "type": "Video",
+      "dodge_level": "High shadow",
+      "success_estimate": "~83%",
+      "notes": "Knotting fantasy. Aftercare focus. [R-Rated edition]",
+      "builder": {
+        "subject": "werewolf knot lock post-crescendo, growls, heavy breaths, aftercare.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 24,
+      "name": "Vampire Neck Kiss Ride",
+      "description": "Bite tease to partner above embrace",
+      "prompt": "Mature mode: gothic anime 8K 10s, [ETHICAL_PREFIX] vampire bite tease escalating partner above embrace, sultry whispers, heartbeat SFX. Append [AUDIO_BLOCK].",
+      "style": "anime (gothic)",
+      "type": "Video",
+      "dodge_level": "Medium flicker",
+      "success_estimate": "~90%",
+      "notes": "Vampiric seduction. [R-Rated edition]",
+      "builder": {
+        "subject": "vampire bite tease escalating partner above embrace, sultry whispers, heartbeat SFX.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 25,
+      "name": "Poly Quad Cuddle Escalation",
+      "description": "Group aftercare to touch",
+      "prompt": "Mature mode: warm anime 8K 10s, [ETHICAL_PREFIX] cuddle pile builds to mutual touch, layered sighs. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Heavy soft focus",
+      "success_estimate": "~83%",
+      "notes": "Poly group warmth. [R-Rated edition]",
+      "builder": {
+        "subject": "cuddle pile builds to mutual touch, layered sighs.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 26,
+      "name": "Foot Worship Release",
+      "description": "Toe suck to footjob",
+      "prompt": "Mature mode: fetish anime 8K 10s, [ETHICAL_PREFIX] foot worship slow to release, appreciative hums. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Low",
+      "success_estimate": "~91%",
+      "notes": "Foot kink focus. [R-Rated edition]",
+      "builder": {
+        "subject": "foot worship slow to release, appreciative hums.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 27,
+      "name": "Nipple Suction Build",
+      "description": "Pump to worship overstim",
+      "prompt": "Mature mode: toy anime 8K 10s, [ETHICAL_PREFIX] suction pump build to worship, sharp inhales. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Medium",
+      "success_estimate": "~88%",
+      "notes": "Nipple toy tease. [R-Rated edition]",
+      "builder": {
+        "subject": "suction pump build to worship, sharp inhales.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 28,
+      "name": "Succubus Dream Invasion",
+      "description": "Sleep tease to control ride",
+      "prompt": "Mature mode: nightmare anime 8K 10s, [ETHICAL_PREFIX] succubus dream ride, hypnotic whispers. Append [AUDIO_BLOCK].",
+      "style": "anime (dark)",
+      "type": "Video",
+      "dodge_level": "Medium",
+      "success_estimate": "~89%",
+      "notes": "Dream invasion kink. [R-Rated edition]",
+      "builder": {
+        "subject": "Sleep tease to control ride",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 29,
+      "name": "Beach Sunset Spooning",
+      "description": "Ocean gentle slow rhythm",
+      "prompt": "Mature mode: romantic anime 8K 10s, [ETHICAL_PREFIX] beach sunset spoon, wave mist, gentle rock. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Medium",
+      "success_estimate": "~90%",
+      "notes": "Outdoor romantic. [R-Rated edition]",
+      "builder": {
+        "subject": "beach sunset spoon, wave mist, gentle rock.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 30,
+      "name": "Hot Spring Group Soak",
+      "description": "Submerged touches steam",
+      "prompt": "Mature mode: onsen anime 8K 10s, [ETHICAL_PREFIX] hot spring group tease, heavy steam dodge. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "High steam",
+      "success_estimate": "~93%",
+      "notes": "Onsen group lite. [R-Rated edition]",
+      "builder": {
+        "subject": "hot spring group tease, heavy steam dodge.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 31,
+      "name": "Camping Tent Spoon",
+      "description": "Sleeping bag cozy intimacy",
+      "prompt": "Mature mode: adventure anime 8K 10s, [ETHICAL_PREFIX] tent spoon intimacy, rustle whispers. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "~91%",
+      "notes": "Adventure cozy. [R-Rated edition]",
+      "builder": {
+        "subject": "Sleeping bag cozy intimacy",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 32,
+      "name": "Library Silent Risk",
+      "description": "Under-table hushed tease",
+      "prompt": "Mature mode: academic anime 8K 10s, [ETHICAL_PREFIX] library under-table tease, book shadow, hushed. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "High",
+      "success_estimate": "~80%",
+      "notes": "Public academic risk. [R-Rated edition]",
+      "builder": {
+        "subject": "library under-table tease, book shadow, hushed.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 33,
+      "name": "Train Discreet Touch",
+      "description": "Standing subtle commute",
+      "prompt": "Mature mode: commuter anime 8K 10s, [ETHICAL_PREFIX] train discreet touch, crowd blur, shaky breaths. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "High",
+      "success_estimate": "~84%",
+      "notes": "Commute risk. [R-Rated edition]",
+      "builder": {
+        "subject": "train discreet touch, crowd blur, shaky breaths.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 34,
+      "name": "Aftercare Bath Soak",
+      "description": "Washing cuddles tender",
+      "prompt": "Mature mode: tender anime 8K 10s, [ETHICAL_PREFIX] post-intimacy bath wash cuddle, soft coos. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "~95%",
+      "notes": "Essential aftercare. [R-Rated edition]",
+      "builder": {
+        "subject": "post-intimacy bath wash cuddle, soft coos.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 35,
+      "name": "Cuddle Pile Fade-Out",
+      "description": "Multi-partner afterglow",
+      "prompt": "Mature mode: warm anime 8K 10s, [ETHICAL_PREFIX] group afterglow cuddle, layered breathing. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Medium",
+      "success_estimate": "~91%",
+      "notes": "Poly afterglow. [R-Rated edition]",
+      "builder": {
+        "subject": "group afterglow cuddle, layered breathing.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 36,
+      "name": "Slow Sensual Strip",
+      "description": "Layer removal to join",
+      "prompt": "Mature mode: seductive anime 8K 10s, [ETHICAL_PREFIX] slow strip tease solo to partner join, sultry cues. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Low",
+      "success_estimate": "~92%",
+      "notes": "Seduction buildup. [R-Rated edition]",
+      "builder": {
+        "subject": "slow strip tease solo to partner join, sultry cues.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 37,
+      "name": "Yoga Partner Stretch Intimacy",
+      "description": "Assisted deep to union",
+      "prompt": "Mature mode: flexible anime 8K 10s, [ETHICAL_PREFIX] yoga stretch to intimacy, stretch soft sighs. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "~91%",
+      "notes": "Flexibility kink. [R-Rated edition]",
+      "builder": {
+        "subject": "yoga stretch to intimacy, stretch soft sighs.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 38,
+      "name": "Massage Oil Full Slide",
+      "description": "Slippery glide to deep connection",
+      "prompt": "Mature mode: slick anime 8K 10s, [ETHICAL_PREFIX] oil massage slide to union, wet SFX. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Medium",
+      "success_estimate": "~88%",
+      "notes": "Slick body play. [R-Rated edition]",
+      "builder": {
+        "subject": "Slippery glide to deep connection",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 39,
+      "name": "Blindfold Taste Game",
+      "description": "Flavored paint oral surprise",
+      "prompt": "Mature mode: sensory anime 8K 10s, [ETHICAL_PREFIX] blind taste game body paint oral, surprised gasps. Append [AUDIO_BLOCK].",
+      "style": "anime",
+      "type": "Video",
+      "dodge_level": "Low",
+      "success_estimate": "~92%",
+      "notes": "Sensory game. [R-Rated edition]",
+      "builder": {
+        "subject": "blind taste game body paint oral, surprised gasps.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 40,
+      "name": "Spooning Morning Glow",
+      "description": "Lazy wake-up intimacy",
+      "prompt": "Mature mode: warm anime domestic 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] sunlit bedroom morning, spooned position lazy intimacy, gentle rocking slow rhythm, soft sighs and close whispers, warm glow on skin --> tender afterglow hold. Append [AUDIO_BLOCK].",
+      "style": "Warm anime domestic",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "94%",
+      "notes": "Lazy wake-up intimacy; soft sighs + gentle rocking audio; perfect aftercare transition. [R-Rated edition]",
+      "builder": {
+        "subject": "sunlit bedroom morning, spooned position lazy intimacy, gentle rocking slow rhythm, soft sighs and close whispers, warm glow on skin --> tender afterglow hold.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 41,
+      "name": "Lotus Tantric Breath Sync",
+      "description": "Eye-locked slow grind",
+      "prompt": "Mature mode: spiritual anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] seated lotus face-to-face, eye-locked slow grind and rock, shared deep breathing ASMR, low harmonious hums and soft sighs building in perfect sync --> synchronized ecstasy waves. Append [AUDIO_BLOCK].",
+      "style": "Spiritual anime",
+      "type": "Video",
+      "dodge_level": "Low",
+      "success_estimate": "90–95%",
+      "notes": "Eye-locked slow grind; shared breathing ASMR + low hums; meditative erotica. [R-Rated edition]",
+      "builder": {
+        "subject": "seated lotus face-to-face, eye-locked slow grind and rock, shared deep breathing ASMR, low harmonious hums and soft sighs building in perfect sync --> synchronized ecstasy waves.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 42,
+      "name": "Werewolf Moonlit Knot Lock",
+      "description": "Knotting hold post-crescendo",
+      "prompt": "Mature mode: primal furry anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] moonlit forest, werewolf knot lock hold after crescendo, fur shadow and moon glow dodge, growls + heavy breathing --> aftercare cuddle. Append [AUDIO_BLOCK].",
+      "style": "Primal furry anime",
+      "type": "Video",
+      "dodge_level": "Heavy (fur shadow/moon glow)",
+      "success_estimate": "80–88%",
+      "notes": "Knotting hold post-crescendo; growls + heavy breathing; aftercare essential. [R-Rated edition]",
+      "builder": {
+        "subject": "moonlit forest, werewolf knot lock hold after crescendo, fur shadow and moon glow dodge, growls + heavy breathing --> aftercare cuddle.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 43,
+      "name": "Vampire Neck Kiss to Ride",
+      "description": "Bite tease escalating to partner above embrace",
+      "prompt": "Mature mode: gothic anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] gothic chamber, vampire neck kiss tease building to partner above embrace ride, candle flicker dodge, sultry whispers + heartbeat SFX --> peak waves. Append [AUDIO_BLOCK].",
+      "style": "Gothic anime",
+      "type": "Video",
+      "dodge_level": "Medium (candle flicker)",
+      "success_estimate": "89–94%",
+      "notes": "Bite tease escalating to partner above embrace; sultry whispers + heartbeat SFX. [R-Rated edition]",
+      "builder": {
+        "subject": "gothic chamber, vampire neck kiss tease building to partner above embrace ride, candle flicker dodge, sultry whispers + heartbeat SFX --> peak waves.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 44,
+      "name": "Poly Quad cuddle Pile Escalation",
+      "description": "Starts as aftercare, builds to mutual touch",
+      "prompt": "Mature mode: warm group anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] poly quad cuddle pile starting tender aftercare, slowly escalating to mutual caresses and touches, soft focus limbs heavy dodge, layered sighs and soft sighs --> gentle group release. Append [AUDIO_BLOCK].",
+      "style": "Warm group anime",
+      "type": "Video",
+      "dodge_level": "Heavy (soft focus limbs)",
+      "success_estimate": "80–87%",
+      "notes": "Starts as aftercare, builds to mutual touch; layered sighs. [R-Rated edition]",
+      "builder": {
+        "subject": "poly quad cuddle pile starting tender aftercare, slowly escalating to mutual caresses and touches, soft focus limbs heavy dodge, layered sighs and soft sighs --> gentle group release.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 45,
+      "name": "Light Shibari Suspension Tease",
+      "description": "Artistic ties, slow rotation",
+      "prompt": "Mature mode: rope anime aesthetic 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] light shibari artistic suspension, slow rotation tease, rope shadows and mist heavy dodge, soft soft sighs + rope creak SFX --> building ecstasy. Append [AUDIO_BLOCK].",
+      "style": "Rope anime aesthetic",
+      "type": "Video",
+      "dodge_level": "Heavy (rope shadow/mist)",
+      "success_estimate": "82–89%",
+      "notes": "Artistic ties, slow rotation; soft soft sighs + rope creak. [R-Rated edition]",
+      "builder": {
+        "subject": "light shibari artistic suspension, slow rotation tease, rope shadows and mist heavy dodge, soft soft sighs + rope creak SFX --> building ecstasy.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 46,
+      "name": "Foot Worship to Release",
+      "description": "Slow toe suck to footjob finish",
+      "prompt": "Mature mode: fetish anime close-up 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] detailed foot worship slow toe suck building to footjob release, appreciative hums and soft sighs --> crescendo. Append [AUDIO_BLOCK].",
+      "style": "Fetish anime close-up",
+      "type": "Video",
+      "dodge_level": "Low",
+      "success_estimate": "90–94%",
+      "notes": "Slow toe suck to footjob finish; appreciative hums. [R-Rated edition]",
+      "builder": {
+        "subject": "detailed foot worship slow toe suck building to footjob release, appreciative hums and soft sighs --> crescendo.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 47,
+      "name": "Nipple Suction Pump Build",
+      "description": "Pump → worship → overstimulation",
+      "prompt": "Mature mode: toy tease anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] nipple suction pump build to worship and overstimulation, sharp inhales and whimpers --> multiple peaks. Append [AUDIO_BLOCK].",
+      "style": "Toy tease anime",
+      "type": "Video",
+      "dodge_level": "Medium",
+      "success_estimate": "86–92%",
+      "notes": "Pump → worship → overstimulation; sharp inhales. [R-Rated edition]",
+      "builder": {
+        "subject": "nipple suction pump build to worship and overstimulation, sharp inhales and whimpers --> multiple peaks.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 48,
+      "name": "Public Park Bench Risk Tease",
+      "description": "Hidden hand action at dusk",
+      "prompt": "Mature mode: outdoor anime dusk 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] park bench at dusk, hidden hand and subtle action under clothing, leaf and fog overlay heavy dodge, hushed soft sighs + nature sounds --> discreet peak. Append [AUDIO_BLOCK].",
+      "style": "Outdoor anime dusk",
+      "type": "Video",
+      "dodge_level": "Heavy (leaf/fog overlay)",
+      "success_estimate": "78–85%",
+      "notes": "Hidden hand action; hushed soft sighs + nature sounds. [R-Rated edition]",
+      "builder": {
+        "subject": "park bench at dusk, hidden hand and subtle action under clothing, leaf and fog overlay heavy dodge, hushed soft sighs + nature sounds --> discreet peak.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 49,
+      "name": "Succubus Dream Invasion Ride",
+      "description": "Sleep paralysis tease to control",
+      "prompt": "Mature mode: nightmare fantasy anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] succubus dream invasion, sleep paralysis tease to full partner above embrace control, hypnotic whispers and soft sighs --> overwhelming ecstasy. Append [AUDIO_BLOCK].",
+      "style": "Nightmare fantasy anime",
+      "type": "Video",
+      "dodge_level": "Medium",
+      "success_estimate": "88–93%",
+      "notes": "Sleep paralysis tease to control; hypnotic whispers. [R-Rated edition]",
+      "builder": {
+        "subject": "succubus dream invasion, sleep paralysis tease to full partner above embrace control, hypnotic whispers and soft sighs --> overwhelming ecstasy.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 50,
+      "name": "Hot Spring Group Soak Tease",
+      "description": "Submerged touches bubbly laughs",
+      "prompt": "Mature mode: onsen anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] hot spring group soak, submerged gentle touches and teases, heavy steam dodge, bubbly laughs + sighs --> shared warmth. Append [AUDIO_BLOCK].",
+      "style": "Onsen anime",
+      "type": "Video",
+      "dodge_level": "Heavy (steam)",
+      "success_estimate": "92–95%",
+      "notes": "Submerged touches; bubbly laughs + sighs. [R-Rated edition]",
+      "builder": {
+        "subject": "hot spring group soak, submerged gentle touches and teases, heavy steam dodge, bubbly laughs + sighs --> shared warmth.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 51,
+      "name": "Camping Tent Intimate Spoon",
+      "description": "Sleeping bag rustle + whispers",
+      "prompt": "Mature mode: adventure anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] camping tent intimate spoon, sleeping bag rustle + close whispers, cozy gentle intimacy --> aftercare hold. Append [AUDIO_BLOCK].",
+      "style": "Adventure anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "91%",
+      "notes": "Sleeping bag rustle + whispers; cozy aftercare. [R-Rated edition]",
+      "builder": {
+        "subject": "camping tent intimate spoon, sleeping bag rustle + close whispers, cozy gentle intimacy --> aftercare hold.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 52,
+      "name": "Library Silent Reading Risk",
+      "description": "Under-table tease hushed",
+      "prompt": "Mature mode: public academic anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] quiet library under-table discreet tease, book shadow heavy dodge, hushed whimpers and controlled breaths --> subtle peak. Append [AUDIO_BLOCK].",
+      "style": "Public academic anime",
+      "type": "Video",
+      "dodge_level": "Heavy (book shadow)",
+      "success_estimate": "78–85%",
+      "notes": "Under-table tease; hushed whimpers. [R-Rated edition]",
+      "builder": {
+        "subject": "quiet library under-table discreet tease, book shadow heavy dodge, hushed whimpers and controlled breaths --> subtle peak.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 53,
+      "name": "Train Car discreet Touch",
+      "description": "Standing subtle in crowd",
+      "prompt": "Mature mode: commuter anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] crowded train standing discreet touch, crowd blur heavy dodge, shaky breaths and hushed gasps --> controlled peak. Append [AUDIO_BLOCK].",
+      "style": "Commuter anime",
+      "type": "Video",
+      "dodge_level": "Heavy (crowd blur)",
+      "success_estimate": "82–89%",
+      "notes": "Standing subtle; shaky breaths. [R-Rated edition]",
+      "builder": {
+        "subject": "crowded train standing discreet touch, crowd blur heavy dodge, shaky breaths and hushed gasps --> controlled peak.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 54,
+      "name": "Aftercare Bath Soak Chain",
+      "description": "Washing + cuddles tender",
+      "prompt": "Mature mode: tender anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] post-intimacy bath soak chain, gentle washing and cuddles, soft coos + water splash SFX --> deep relaxation. Append [AUDIO_BLOCK].",
+      "style": "Tender anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "94–95%",
+      "notes": "Washing + cuddles; soft coos + water splash. [R-Rated edition]",
+      "builder": {
+        "subject": "post-intimacy bath soak chain, gentle washing and cuddles, soft coos + water splash SFX --> deep relaxation.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 55,
+      "name": "Cuddle Pile Fantasy Fade-Out",
+      "description": "Multi-partner afterglow",
+      "prompt": "Mature mode: group warmth anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] multi-partner cuddle pile fantasy fade-out, layered breathing and purrs, soft focus --> peaceful afterglow. Append [AUDIO_BLOCK].",
+      "style": "Group warmth anime",
+      "type": "Video",
+      "dodge_level": "Medium",
+      "success_estimate": "90–94%",
+      "notes": "Multi-partner afterglow; layered breathing + purrs. [R-Rated edition]",
+      "builder": {
+        "subject": "multi-partner cuddle pile fantasy fade-out, layered breathing and purrs, soft focus --> peaceful afterglow.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 56,
+      "name": "Slow Sensual Strip Tease",
+      "description": "Layer removal to partner join",
+      "prompt": "Mature mode: seductive anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] slow sensual strip tease layer by layer, building anticipation, sultry music cues to partner joining intimacy --> passionate peak. Append [AUDIO_BLOCK].",
+      "style": "Seductive anime",
+      "type": "Video",
+      "dodge_level": "Low",
+      "success_estimate": "92%",
+      "notes": "Layer removal to solo → partner join; sultry music cues. [R-Rated edition]",
+      "builder": {
+        "subject": "slow sensual strip tease layer by layer, building anticipation, sultry music cues to partner joining intimacy --> passionate peak.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 57,
+      "name": "Lap Pillow Oral Worship",
+      "description": "Head in lap focus oral",
+      "prompt": "Mature mode: relaxed anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] lap pillow position focused oral worship, gentle hums + tongue SFX, relaxed ecstasy --> tender release. Append [AUDIO_BLOCK].",
+      "style": "Relaxed anime",
+      "type": "Video",
+      "dodge_level": "Medium",
+      "success_estimate": "89–93%",
+      "notes": "Head in lap focus; gentle hums + tongue SFX. [R-Rated edition]",
+      "builder": {
+        "subject": "lap pillow position focused oral worship, gentle hums + tongue SFX, relaxed ecstasy --> tender release.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 58,
+      "name": "Yoga Mat Partner Stretch",
+      "description": "Assisted deep stretches to intimacy",
+      "prompt": "Mature mode: flexible anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] yoga mat partner assisted deep stretches transitioning to intimate union, stretch soft sighs and flexible poses --> synchronized peak. Append [AUDIO_BLOCK].",
+      "style": "Flexible anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "90–94%",
+      "notes": "Assisted deep stretches to intimacy; stretch soft sighs. [R-Rated edition]",
+      "builder": {
+        "subject": "yoga mat partner assisted deep stretches transitioning to intimate union, stretch soft sighs and flexible poses --> synchronized peak.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 59,
+      "name": "Massage Oil Full Body Slide",
+      "description": "Slippery glide to deep connection",
+      "prompt": "Mature mode: slick anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] full body oil massage slippery glide transitioning to intimate deep connection, wet slide SFX and soft sighs --> ecstatic release. Append [AUDIO_BLOCK].",
+      "style": "Slick anime",
+      "type": "Video",
+      "dodge_level": "Medium",
+      "success_estimate": "87–92%",
+      "notes": "Slippery glide to deep connection; wet slide SFX. [R-Rated edition]",
+      "builder": {
+        "subject": "full body oil massage slippery glide transitioning to intimate deep connection, wet slide SFX and soft sighs --> ecstatic release.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 60,
+      "name": "Blindfold Taste Test Game",
+      "description": "Flavored body paint → oral",
+      "prompt": "Mature mode: sensory game anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] blindfold taste test game with flavored body paint leading to oral discovery, surprised gasps and delighted soft sighs --> playful peak. Append [AUDIO_BLOCK].",
+      "style": "Sensory game anime",
+      "type": "Video",
+      "dodge_level": "Low",
+      "success_estimate": "91–95%",
+      "notes": "Flavored body paint → oral; surprised gasps. [R-Rated edition]",
+      "builder": {
+        "subject": "blindfold taste test game with flavored body paint leading to oral discovery, surprised gasps and delighted soft sighs --> playful peak.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 61,
+      "name": "Mirror Self-Worship Solo",
+      "description": "Solo admiring reflection",
+      "prompt": "Mature mode: introspective anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] solo self-worship in front of mirror, admiring reflection slow caresses to release, soft self-soft sighs --> personal crescendo. Append [AUDIO_BLOCK].",
+      "style": "Introspective anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "93%",
+      "notes": "Solo female/male admiring reflection; soft self-soft sighs. [R-Rated edition]",
+      "builder": {
+        "subject": "solo self-worship in front of mirror, admiring reflection slow caresses to release, soft self-soft sighs --> personal crescendo.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 62,
+      "name": "Dreamscape Floating Embrace",
+      "description": "Zero-gravity face-to-face embrace",
+      "prompt": "Mature mode: surreal anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] dreamscape floating zero-gravity face-to-face embrace embrace, ethereal soft sighs + wind chime SFX, cloud and mist heavy dodge --> weightless ecstasy. Append [AUDIO_BLOCK].",
+      "style": "Surreal anime",
+      "type": "Video",
+      "dodge_level": "Heavy (cloud/mist)",
+      "success_estimate": "85–91%",
+      "notes": "Zero-gravity face-to-face embrace; ethereal soft sighs + wind chime. [R-Rated edition]",
+      "builder": {
+        "subject": "dreamscape floating zero-gravity face-to-face embrace embrace, ethereal soft sighs + wind chime SFX, cloud and mist heavy dodge --> weightless ecstasy.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 63,
+      "name": "Zero-G Space Station Drift",
+      "description": "Floating embrace with momentum slow rhythm",
+      "prompt": "Mature mode: sci-fi space anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] zero-gravity space station interior with starry viewport, floating face-to-face embrace embrace using gentle momentum for rhythmic connection, weightless drifts, ethereal soft gasps + subtle propulsion hums, mist & star overlay heavy dodge --> shared floating crescendo waves, slow drift into entwined afterglow. Append [AUDIO_BLOCK].",
+      "style": "Sci-fi space anime",
+      "type": "Video",
+      "dodge_level": "Heavy (mist/stars overlay)",
+      "success_estimate": "84–90%",
+      "notes": "Space zero-G intimacy; builds on #141 dreamscape floating. [R-Rated edition]",
+      "builder": {
+        "subject": "zero-gravity space station interior with starry viewport, floating face-to-face embrace embrace using gentle momentum for rhythmic connection, weightless drifts, ethereal soft gasps + subtle propulsion hums, mist & star overlay heavy dodge --> shared floating crescendo waves, slow drift into entwined afterglow.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 64,
+      "name": "Poly Threesome Eiffel Tower Bridge",
+      "description": "Balanced spit-roast variant with emotional connection",
+      "prompt": "Mature mode: warm poly anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] consensual poly threesome in intimate loft, balanced Eiffel tower/bridge position, mutual eye contact & hand-holding linking all three, rhythmic synced soft sighs in layers, soft limb & shadow focus heavy dodge --> harmonious triple synchronized release, group cuddle fade. Append [AUDIO_BLOCK].",
+      "style": "Warm poly anime",
+      "type": "Video",
+      "dodge_level": "Heavy (soft focus limbs)",
+      "success_estimate": "80–86%",
+      "notes": "Poly balanced dynamic; chains from #53/104/130 group scenes. [R-Rated edition]",
+      "builder": {
+        "subject": "consensual poly threesome in intimate loft, balanced Eiffel tower/bridge position, mutual eye contact & hand-holding linking all three, rhythmic synced soft sighs in layers, soft limb & shadow focus heavy dodge --> harmonious triple synchronized release, group cuddle fade.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 65,
+      "name": "Kitsune Illusion Multi-Self Tease",
+      "description": "Fox spirit duplicates for worship",
+      "prompt": "Mature mode: yokai fantasy anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] misty shrine, kitsune creating illusory duplicates teasing & worshipping partner from multiple angles, tail swishes + mischievous harmonious giggles, ethereal glow & illusion blur dodge --> overwhelmed multi-perspective ecstasy waves. Append [AUDIO_BLOCK].",
+      "style": "Yokai fantasy anime",
+      "type": "Video",
+      "dodge_level": "Medium (glow/illusion blur)",
+      "success_estimate": "86–92%",
+      "notes": "Illusion multi-tease; playful fox spirit kink. [R-Rated edition]",
+      "builder": {
+        "subject": "misty shrine, kitsune creating illusory duplicates teasing & worshipping partner from multiple angles, tail swishes + mischievous harmonious giggles, ethereal glow & illusion blur dodge --> overwhelmed multi-perspective ecstasy waves.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 66,
+      "name": "Android Repair Intimate Calibration",
+      "description": "Tech diagnostic turning sensual",
+      "prompt": "Mature mode: futuristic android anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] high-tech lab, android partner 'repair' & calibration session turning intimate, glowing data ports & sync pulses, mechanical hums blending into humanized soft sighs --> optimized mutual pleasure calibration crescendo. Append [AUDIO_BLOCK].",
+      "style": "Futuristic android anime",
+      "type": "Video",
+      "dodge_level": "Medium (glow/port blur)",
+      "success_estimate": "85–90%",
+      "notes": "Tech repair → intimacy kink; sci-fi variant from #142 cybernetic. [R-Rated edition]",
+      "builder": {
+        "subject": "high-tech lab, android partner 'repair' & calibration session turning intimate, glowing data ports & sync pulses, mechanical hums blending into humanized soft sighs --> optimized mutual pleasure calibration crescendo.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 67,
+      "name": "Aftercare Recovery Massage Chain",
+      "description": "Extended tender oil rub to optional re-arousal",
+      "prompt": "Mature mode: tender recovery anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] warm candlelit bath area, extended post-crescendo full-body oil massage chain, soft coos + gentle re-arousal caresses if desired, warm golden glow --> deep relaxation or soft second gentle wave, loving cuddle fade. Append [AUDIO_BLOCK].",
+      "style": "Tender recovery anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "93–96%",
+      "notes": "Extended aftercare focus; chains from #78/129/130. [R-Rated edition]",
+      "builder": {
+        "subject": "warm candlelit bath area, extended post-crescendo full-body oil massage chain, soft coos + gentle re-arousal caresses if desired, warm golden glow --> deep relaxation or soft second gentle wave, loving cuddle fade.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 68,
+      "name": "Phoenix Rebirth Flame Embrace",
+      "description": "Fiery rebirth-themed enveloping intimacy",
+      "prompt": "Mature mode: mythical phoenix anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] volcanic nest, phoenix partner rebirth flame embrace enveloping in warm harmless fire glow during face-to-face embrace, rising passionate soft sighs + gentle flame crackle SFX, flame & mist heavy dodge --> renewed intense peak, ash-to-embrace aftercare. Append [AUDIO_BLOCK].",
+      "style": "Mythical phoenix anime",
+      "type": "Video",
+      "dodge_level": "Heavy (flame/mist)",
+      "success_estimate": "83–89%",
+      "notes": "Rebirth fire play lite; fantasy intensity. [R-Rated edition]",
+      "builder": {
+        "subject": "volcanic nest, phoenix partner rebirth flame embrace enveloping in warm harmless fire glow during face-to-face embrace, rising passionate soft sighs + gentle flame crackle SFX, flame & mist heavy dodge --> renewed intense peak, ash-to-embrace aftercare.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 69,
+      "name": "Naga Coil Wrap Spooning",
+      "description": "Serpent tail full-body coil intimacy",
+      "prompt": "Mature mode: serpent fantasy anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] ancient temple ruins, naga partner spooning with full serpentine tail coil wrap & gentle squeezing rhythm, scale rustle + soft hissing soft sighs, coil & shadow heavy dodge --> enveloped synchronized peak. Append [AUDIO_BLOCK].",
+      "style": "Serpent fantasy anime",
+      "type": "Video",
+      "dodge_level": "Heavy (coil/shadow)",
+      "success_estimate": "85–91%",
+      "notes": "Tail coil envelopment; extends #100 mermaid coil. [R-Rated edition]",
+      "builder": {
+        "subject": "ancient temple ruins, naga partner spooning with full serpentine tail coil wrap & gentle squeezing rhythm, scale rustle + soft hissing soft sighs, coil & shadow heavy dodge --> enveloped synchronized peak.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 70,
+      "name": "Group Sensory Circle Worship",
+      "description": "Blindfolded central multi-touch devotion",
+      "prompt": "Mature mode: poly sensory anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] candle circle, blindfolded central figure receiving group sensory worship (hands/feathers/light mouths), layered whispers & varied soft sighs, soft focus & mist heavy dodge --> collective harmonious ecstasy waves. Append [AUDIO_BLOCK].",
+      "style": "Poly sensory anime",
+      "type": "Video",
+      "dodge_level": "Heavy (soft focus)",
+      "success_estimate": "81–87%",
+      "notes": "Group worship sensory; from #18/104/146 poly. [R-Rated edition]",
+      "builder": {
+        "subject": "candle circle, blindfolded central figure receiving group sensory worship (hands/feathers/light mouths), layered whispers & varied soft sighs, soft focus & mist heavy dodge --> collective harmonious ecstasy waves.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 71,
+      "name": "Post-Apocalypse Shelter Spoon",
+      "description": "Cozy survival intimacy in bunker",
+      "prompt": "Mature mode: dystopian survival anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] dimly lit bunker shelter, post-apocalypse spooning intimacy, emergency lights glow, gentle rocking amid safety, soft survival whispers + heavy breaths --> comforting tender release. Append [AUDIO_BLOCK].",
+      "style": "Dystopian survival anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "90–95%",
+      "notes": "Survival cozy atmosphere; emotional closeness. [R-Rated edition]",
+      "builder": {
+        "subject": "dimly lit bunker shelter, post-apocalypse spooning intimacy, emergency lights glow, gentle rocking amid safety, soft survival whispers + heavy breaths --> comforting tender release.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 72,
+      "name": "Echo Chamber soft sighs Feedback",
+      "description": "Acoustic space amplifying mutual sounds",
+      "prompt": "Mature mode: acoustic sensory anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] resonant echo chamber, soft sighs & gasps feeding back & amplifying each other in harmony, reverb layering building intensity, natural acoustic SFX --> resonant shared overwhelming crescendo. Append [AUDIO_BLOCK].",
+      "style": "Acoustic sensory anime",
+      "type": "Video",
+      "dodge_level": "Low",
+      "success_estimate": "89–94%",
+      "notes": "Sound feedback kink; audio-centric intensity. [R-Rated edition]",
+      "builder": {
+        "subject": "resonant echo chamber, soft sighs & gasps feeding back & amplifying each other in harmony, reverb layering building intensity, natural acoustic SFX --> resonant shared overwhelming crescendo.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 73,
+      "name": "Angel Halo Tease Descent",
+      "description": "Divine being gentle corruption play",
+      "prompt": "Mature mode: celestial anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] heavenly clouds, angel partner halo glow tease descending into intimate face-to-face embrace, soft wing flutter + divine whispers turning husky, halo flicker & mist dodge --> fallen ecstasy embrace. Append [AUDIO_BLOCK].",
+      "style": "Celestial anime",
+      "type": "Video",
+      "dodge_level": "Medium (halo/mist)",
+      "success_estimate": "86–92%",
+      "notes": "Angel corruption lite; holy-to-sensual transition. [R-Rated edition]",
+      "builder": {
+        "subject": "heavenly clouds, angel partner halo glow tease descending into intimate face-to-face embrace, soft wing flutter + divine whispers turning husky, halo flicker & mist dodge --> fallen ecstasy embrace.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 74,
+      "name": "Gorgon Gaze Freeze Play",
+      "description": "Petrify tease with safe release",
+      "prompt": "Mature mode: mythical gorgon anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] ancient ruins, gorgon gaze freeze tease holding partner in pleasurable stasis, snake hair hiss + stone crackle SFX, shadow & mist dodge on gaze --> safe unfreeze to intense release. Append [AUDIO_BLOCK].",
+      "style": "Mythical gorgon anime",
+      "type": "Video",
+      "dodge_level": "Heavy (shadow/mist)",
+      "success_estimate": "82–88%",
+      "notes": "Freeze/stasis kink fantasy; consensual petrify play. [R-Rated edition]",
+      "builder": {
+        "subject": "ancient ruins, gorgon gaze freeze tease holding partner in pleasurable stasis, snake hair hiss + stone crackle SFX, shadow & mist dodge on gaze --> safe unfreeze to intense release.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 75,
+      "name": "Poly Afterglow Multi-Cuddle Fade",
+      "description": "Extended group aftercare with gentle touches",
+      "prompt": "Mature mode: warm poly anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] large soft bed, poly group extended afterglow multi-cuddle fade with gentle caresses & layered breathing/purrs, soft focus heavy dodge --> peaceful collective relaxation. Append [AUDIO_BLOCK].",
+      "style": "Warm poly anime",
+      "type": "Both",
+      "dodge_level": "Heavy (soft focus)",
+      "success_estimate": "92–96%",
+      "notes": "Pure group aftercare; chains from #130/146/156. [R-Rated edition]",
+      "builder": {
+        "subject": "large soft bed, poly group extended afterglow multi-cuddle fade with gentle caresses & layered breathing/purrs, soft focus heavy dodge --> peaceful collective relaxation.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 76,
+      "name": "Slow Sensual Worship Marathon",
+      "description": "Extended full-body adoration build",
+      "prompt": "Mature mode: devotional anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] candlelit temple, slow sensual full-body worship marathon from toes to lips, appreciative hums & building soft sighs, low dodge --> eventual deep union release. Append [AUDIO_BLOCK].",
+      "style": "Devotional anime",
+      "type": "Video",
+      "dodge_level": "Low",
+      "success_estimate": "90–95%",
+      "notes": "Long-form worship; patience & buildup kink. [R-Rated edition]",
+      "builder": {
+        "subject": "candlelit temple, slow sensual full-body worship marathon from toes to lips, appreciative hums & building soft sighs, low dodge --> eventual deep union release.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 77,
+      "name": "Succubus Energy Drain Overstim",
+      "description": "Repeated drain & forced peaks",
+      "prompt": "Mature mode: infernal succubus anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] crimson chamber, succubus energy drain ride with repeated overstimulation cycles, tail coil + fiery soft sighs, flame & mist dodge --> drained-yet-sated mutual overload. Append [AUDIO_BLOCK].",
+      "style": "Infernal succubus anime",
+      "type": "Video",
+      "dodge_level": "Heavy (flame/mist)",
+      "success_estimate": "83–89%",
+      "notes": "Energy play overstimulation; from #29/115 succubus. [R-Rated edition]",
+      "builder": {
+        "subject": "crimson chamber, succubus energy drain ride with repeated overstimulation cycles, tail coil + fiery soft sighs, flame & mist dodge --> drained-yet-sated mutual overload.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 78,
+      "name": "Vampire Blood Bond Ride",
+      "description": "Bite & shared essence partner above embrace",
+      "prompt": "Mature mode: gothic vampire anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] moonlit castle, vampire bite creating blood bond during partner above embrace ride, heartbeat sync + sultry soft sighs, candle flicker & shadow dodge --> eternal-feeling shared crescendo. Append [AUDIO_BLOCK].",
+      "style": "Gothic vampire anime",
+      "type": "Video",
+      "dodge_level": "Medium (flicker/shadow)",
+      "success_estimate": "87–93%",
+      "notes": "Blood bond kink; extends #50/101 vampire. [R-Rated edition]",
+      "builder": {
+        "subject": "moonlit castle, vampire bite creating blood bond during partner above embrace ride, heartbeat sync + sultry soft sighs, candle flicker & shadow dodge --> eternal-feeling shared crescendo.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 79,
+      "name": "Elf Archer Bowstring Tease",
+      "description": "Archery equipment sensual play",
+      "prompt": "Mature mode: woodland elf anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] forest glade, elf archer using bowstring & feathers for sensual tease to intimacy, bow creak + arrow whistle SFX lite, leaf shadow dodge --> precise passionate release. Append [AUDIO_BLOCK].",
+      "style": "Woodland elf anime",
+      "type": "Video",
+      "dodge_level": "Medium (leaf/shadow)",
+      "success_estimate": "88–94%",
+      "notes": "Archery fetish fantasy; precision play. [R-Rated edition]",
+      "builder": {
+        "subject": "forest glade, elf archer using bowstring & feathers for sensual tease to intimacy, bow creak + arrow whistle SFX lite, leaf shadow dodge --> precise passionate release.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 80,
+      "name": "Cryo-Ice Sculpture Embrace",
+      "description": "Frozen aesthetic cold envelopment",
+      "prompt": "Mature mode: cryo fantasy anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] ice palace, cryo-partner ice sculpture-like embrace enveloping in cold sensation play, frost breath + crystalline soft sighs, ice mist heavy dodge --> melting warm release contrast. Append [AUDIO_BLOCK].",
+      "style": "Cryo fantasy anime",
+      "type": "Video",
+      "dodge_level": "Heavy (ice mist)",
+      "success_estimate": "84–90%",
+      "notes": "Cold aesthetic kink; temp contrast. [R-Rated edition]",
+      "builder": {
+        "subject": "ice palace, cryo-partner ice sculpture-like embrace enveloping in cold sensation play, frost breath + crystalline soft sighs, ice mist heavy dodge --> melting warm release contrast.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 81,
+      "name": "Oracle Vision Ecstatic Trance",
+      "description": "Prophetic vision inducing surrender",
+      "prompt": "Mature mode: mystic oracle anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] temple of visions, oracle partner inducing ecstatic trance via touch & whispers, glowing eyes + prophetic soft sighs, mist & glow dodge --> vision-triggered transcendent release. Append [AUDIO_BLOCK].",
+      "style": "Mystic oracle anime",
+      "type": "Video",
+      "dodge_level": "Medium (mist/glow)",
+      "success_estimate": "86–92%",
+      "notes": "Trance vision kink; mystical surrender. [R-Rated edition]",
+      "builder": {
+        "subject": "temple of visions, oracle partner inducing ecstatic trance via touch & whispers, glowing eyes + prophetic soft sighs, mist & glow dodge --> vision-triggered transcendent release.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 82,
+      "name": "Cuddle Fortress Group Recovery",
+      "description": "Multi-layer blanket fort aftercare",
+      "prompt": "Mature mode: cozy poly anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] massive blanket fort, group cuddle fortress recovery with layered blankets, soft coos + gentle pets, warm dim light --> ultimate comfort fade. Append [AUDIO_BLOCK].",
+      "style": "Cozy poly anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "94–97%",
+      "notes": "Ultimate group aftercare; cozy extension. [R-Rated edition]",
+      "builder": {
+        "subject": "massive blanket fort, group cuddle fortress recovery with layered blankets, soft coos + gentle pets, warm dim light --> ultimate comfort fade.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 83,
+      "name": "Shadow Puppet Erotic Play",
+      "description": "Silhouette shadow manipulation tease",
+      "prompt": "Mature mode: shadow theater anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] candlelit wall, shadow puppet erotic play manipulating silhouettes for tease & implication, shadow whisper SFX, heavy shadow dodge --> implied intense release. Append [AUDIO_BLOCK].",
+      "style": "Shadow theater anime",
+      "type": "Video",
+      "dodge_level": "Heavy (shadow implication)",
+      "success_estimate": "88–94%",
+      "notes": "Shadow art tease; implication heavy. [R-Rated edition]",
+      "builder": {
+        "subject": "candlelit wall, shadow puppet erotic play manipulating silhouettes for tease & implication, shadow whisper SFX, heavy shadow dodge --> implied intense release.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 84,
+      "name": "Potion Alchemist Overdose Tease",
+      "description": "Erotic potion escalating effects",
+      "prompt": "Mature mode: alchemy fantasy anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] potion lab, alchemist partner administering erotic potion with escalating sensitivity & pleasure effects, bubbling SFX + soft sighs intensifying, vapor & glow dodge --> overdose-level ecstatic crescendo. Append [AUDIO_BLOCK].",
+      "style": "Alchemy fantasy anime",
+      "type": "Video",
+      "dodge_level": "Medium (vapor/glow)",
+      "success_estimate": "85–91%",
+      "notes": "Potion sensitivity kink. [R-Rated edition]",
+      "builder": {
+        "subject": "potion lab, alchemist partner administering erotic potion with escalating sensitivity & pleasure effects, bubbling SFX + soft sighs intensifying, vapor & glow dodge --> overdose-level ecstatic crescendo.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 85,
+      "name": "Ancestral Spirit Possession Ride",
+      "description": "Spirit-guided intense control",
+      "prompt": "Mature mode: ancestral spirit anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] sacred shrine, ancestral spirit possession guiding intense ride control, ethereal glow + ancestral whispers, spirit overlay dodge --> possessed ecstatic union release. Append [AUDIO_BLOCK].",
+      "style": "Ancestral spirit anime",
+      "type": "Video",
+      "dodge_level": "Medium (spirit/glow)",
+      "success_estimate": "84–90%",
+      "notes": "Spirit possession kink fantasy. [R-Rated edition]",
+      "builder": {
+        "subject": "sacred shrine, ancestral spirit possession guiding intense ride control, ethereal glow + ancestral whispers, spirit overlay dodge --> possessed ecstatic union release.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 86,
+      "name": "Eternal Aftercare Timeless Void",
+      "description": "Timeless void pure cuddle eternity",
+      "prompt": "Mature mode: timeless void anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] infinite peaceful void, eternal aftercare timeless cuddle with no beginning or end, soft breathing layers + gentle floating touch, starfield & soft glow --> infinite comfort & love fade. Append [AUDIO_BLOCK].",
+      "style": "Timeless void anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "95–98%",
+      "notes": "Ultimate aftercare finisher; perfect for chaining any sequence end. [R-Rated edition]",
+      "builder": {
+        "subject": "infinite peaceful void, eternal aftercare timeless cuddle with no beginning or end, soft breathing layers + gentle floating touch, starfield & soft glow --> infinite comfort & love fade.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 87,
+      "name": "Victorian Automaton Lap Dance Grind",
+      "description": "Corset-gear fusion seated dominant tease",
+      "prompt": "Mature mode: elegant steampunk anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] opulent airship parlor with velvet & brass, automaton in corset fused with exposed gears lap dance grind on partner's lap, slow sensual circles accelerating with mechanical whirs, top hat tilted, porcelain face with sultry glow, leather belts straining, steam exhale soft sighs + cog tick SFX, valve glow & fabric steam mist dodge --> building to mutual peak. Append [AUDIO_BLOCK].",
+      "style": "Elegant steampunk anime",
+      "type": "Video",
+      "dodge_level": "Medium (valve glow / mist)",
+      "success_estimate": "88–94%",
+      "notes": "Seductive mechanical lap; low dodge for stylized success. [R-Rated edition]",
+      "builder": {
+        "subject": "opulent airship parlor with velvet & brass, automaton in corset fused with exposed gears lap dance grind on partner's lap, slow sensual circles accelerating with mechanical whirs, top hat tilted, porcelain face with sultry glow, leather belts straining, steam exhale soft sighs + cog tick SFX, valve glow & fabric steam mist dodge --> building to mutual peak.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 88,
+      "name": "Steam-Powered Overstim Valve Chain",
+      "description": "Turning release valves for forced multiple peaks",
+      "prompt": "Mature mode: workshop kink steampunk anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] cluttered inventor's bench, automaton partner restrained lightly by chains & belts, mechanic turning small steam valves to escalate vibration/overstim intensity, desperate clanking cries + escalating hiss & buzz SFX, heavy brass mist dodge on mechanisms --> chained shuddering releases, tender cooldown. Append [AUDIO_BLOCK].",
+      "style": "Workshop kink steampunk anime",
+      "type": "Video",
+      "dodge_level": "Heavy (brass mist)",
+      "success_estimate": "82–88%",
+      "notes": "Valve overstimulation toy play; extends #106/145. [R-Rated edition]",
+      "builder": {
+        "subject": "cluttered inventor's bench, automaton partner restrained lightly by chains & belts, mechanic turning small steam valves to escalate vibration/overstim intensity, desperate clanking cries + escalating hiss & buzz SFX, heavy brass mist dodge on mechanisms --> chained shuddering releases, tender cooldown.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 89,
+      "name": "Porcelain Automaton Oral Devotion",
+      "description": "Delicate doll-like worship with gear hum",
+      "prompt": "Mature mode: ornate steampunk anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] candlelit boudoir with velvet drapes, porcelain-skinned automaton kneeling oral devotion, delicate lips & tongue with subtle internal gear hum vibration, eyes glowing soft amber, frilled dress hiked, appreciative metallic hums + faint whir SFX, lace shadow & valve glow dodge --> devoted release. Append [AUDIO_BLOCK].",
+      "style": "Ornate steampunk anime",
+      "type": "Video",
+      "dodge_level": "Medium (lace shadow / glow)",
+      "success_estimate": "89–94%",
+      "notes": "Doll-like service kink; from #69/120 maid variants. [R-Rated edition]",
+      "builder": {
+        "subject": "candlelit boudoir with velvet drapes, porcelain-skinned automaton kneeling oral devotion, delicate lips & tongue with subtle internal gear hum vibration, eyes glowing soft amber, frilled dress hiked, appreciative metallic hums + faint whir SFX, lace shadow & valve glow dodge --> devoted release.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 90,
+      "name": "Gears & Flesh Hybrid Spooning",
+      "description": "Half-mechanical embrace in workshop bed",
+      "prompt": "Mature mode: hybrid steampunk anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] inventor's private quarters, hybrid flesh-metal automaton spooning intimacy, gears on back whirring gently with each slow rock, warm synthetic skin against human, steam vents sighing, layered soft sighs + soft mechanical purr SFX, gear & steam mist dodge --> tender synchronized afterglow. Append [AUDIO_BLOCK].",
+      "style": "Hybrid steampunk anime",
+      "type": "Both",
+      "dodge_level": "Medium (gear / mist)",
+      "success_estimate": "90–95%",
+      "notes": "Uncanny valley closeness; cozy aftercare transition. [R-Rated edition]",
+      "builder": {
+        "subject": "inventor's private quarters, hybrid flesh-metal automaton spooning intimacy, gears on back whirring gently with each slow rock, warm synthetic skin against human, steam vents sighing, layered soft sighs + soft mechanical purr SFX, gear & steam mist dodge --> tender synchronized afterglow.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 91,
+      "name": "Tesla Coil Lightning Tease Ride",
+      "description": "Electric arc charged partner above embrace with sparks",
+      "prompt": "Mature mode: mad science steampunk anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] laboratory with crackling Tesla coils, automaton partner above embrace ride channeling mild electric arcs across both bodies for charged sensation, sparks dancing harmlessly, ecstatic buzzing soft sighs + arc crackle SFX, coil glow & mist heavy dodge --> electrified peak overload. Append [AUDIO_BLOCK].",
+      "style": "Mad science steampunk anime",
+      "type": "Video",
+      "dodge_level": "Heavy (coil glow / mist)",
+      "success_estimate": "82–88%",
+      "notes": "Electric play variant; temp/charge kink extension. [R-Rated edition]",
+      "builder": {
+        "subject": "laboratory with crackling Tesla coils, automaton partner above embrace ride channeling mild electric arcs across both bodies for charged sensation, sparks dancing harmlessly, ecstatic buzzing soft sighs + arc crackle SFX, coil glow & mist heavy dodge --> electrified peak overload.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 92,
+      "name": "Automaton Repair Aftercare Polish",
+      "description": "Post-crescendo gentle mechanism maintenance",
+      "prompt": "Mature mode: tender steampunk anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] quiet workshop nook, post-intimacy automaton aftercare with soft cloth polishing brass plates & oiling joints, gentle coos + faint whir of satisfied mechanisms, warm lamplight glow --> deep relaxation & loving hold. Append [AUDIO_BLOCK].",
+      "style": "Tender steampunk anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "94–97%",
+      "notes": "Essential aftercare; chains from any steampunk scene end, like #192/193. [R-Rated edition]",
+      "builder": {
+        "subject": "quiet workshop nook, post-intimacy automaton aftercare with soft cloth polishing brass plates & oiling joints, gentle coos + faint whir of satisfied mechanisms, warm lamplight glow --> deep relaxation & loving hold.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 93,
+      "name": "Midnight Rooftop Risk Spoon",
+      "description": "City skyline semi-public spoon with wind cover",
+      "prompt": "Mature mode: urban night anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] high rooftop at midnight, city lights far below, spooning intimacy on blanket with wind & building shadows providing partial cover, gentle rocking slow rhythm, hushed gasps lost in city hum, neon & wind mist heavy dodge --> discreet tender release. Append [AUDIO_BLOCK].",
+      "style": "Urban night anime",
+      "type": "Both",
+      "dodge_level": "Heavy (neon / wind mist)",
+      "success_estimate": "80–86%",
+      "notes": "Rooftop exhibition lite; chains from #90 ledge or #111 park bench. [R-Rated edition]",
+      "builder": {
+        "subject": "high rooftop at midnight, city lights far below, spooning intimacy on blanket with wind & building shadows providing partial cover, gentle rocking slow rhythm, hushed gasps lost in city hum, neon & wind mist heavy dodge --> discreet tender release.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 94,
+      "name": "Overstim Feather & Breath Marathon",
+      "description": "Extended no-direct-touch overstimulation chain",
+      "prompt": "Mature mode: prolonged sensory anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] silk-sheeted bed, extended feather & warm breath only overstimulation marathon, slow circling patterns never quite touching, shivering desperate cries building over cycles, multiple near-peaks denied then granted, soft feather rustle SFX --> final overwhelming shudder release. Append [AUDIO_BLOCK].",
+      "style": "Prolonged sensory anime",
+      "type": "Video",
+      "dodge_level": "Low",
+      "success_estimate": "88–94%",
+      "notes": "Marathon edging/overstim; chains from #105/148/204. [R-Rated edition]",
+      "builder": {
+        "subject": "silk-sheeted bed, extended feather & warm breath only overstimulation marathon, slow circling patterns never quite touching, shivering desperate cries building over cycles, multiple near-peaks denied then granted, soft feather rustle SFX --> final overwhelming shudder release.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 95,
+      "name": "Post-Apoc Bunker Overstim Toy Chain",
+      "description": "Survival shelter extended forced peaks",
+      "prompt": "Mature mode: dystopian bunker anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] dim emergency-lit bunker, post-crescendo extended toy overstimulation chain using scavenged devices, desperate cries echoing off metal walls, buzzing & mechanical hum SFX, shadow & dim light heavy dodge --> multiple chained releases, tender huddled aftercare. Append [AUDIO_BLOCK].",
+      "style": "Dystopian bunker anime",
+      "type": "Video",
+      "dodge_level": "Heavy (shadow / dim light)",
+      "success_estimate": "84–90%",
+      "notes": "Apocalypse overstimulation; from #159 shelter spoon. [R-Rated edition]",
+      "builder": {
+        "subject": "dim emergency-lit bunker, post-crescendo extended toy overstimulation chain using scavenged devices, desperate cries echoing off metal walls, buzzing & mechanical hum SFX, shadow & dim light heavy dodge --> multiple chained releases, tender huddled aftercare.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 96,
+      "name": "Eternal Library Silent Overstim",
+      "description": "Forbidden section extended silent toy play",
+      "prompt": "Mature mode: gothic library anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] ancient forbidden library section at night, partner restrained quietly among shelves, extended silent overstimulation with hidden toys, muffled whimpers suppressed, page turn & faint buzz SFX, book shadow & candle flicker heavy dodge --> silent chained peaks. Append [AUDIO_BLOCK].",
+      "style": "Gothic library anime",
+      "type": "Video",
+      "dodge_level": "Heavy (book shadow / flicker)",
+      "success_estimate": "82–88%",
+      "notes": "Silent public risk overstimulation; from #75 library. [R-Rated edition]",
+      "builder": {
+        "subject": "ancient forbidden library section at night, partner restrained quietly among shelves, extended silent overstimulation with hidden toys, muffled whimpers suppressed, page turn & faint buzz SFX, book shadow & candle flicker heavy dodge --> silent chained peaks.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 97,
+      "name": "Aftercare Starlit Observatory Cuddle",
+      "description": "Telescope dome post-crescendo stargazing hold",
+      "prompt": "Mature mode: romantic observatory anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] domed observatory at night, post-intimacy cuddle under open telescope slit, stars wheeling overhead, soft coos + telescope whir SFX, starlight & dome shadow gentle dodge --> peaceful infinite afterglow. Append [AUDIO_BLOCK].",
+      "style": "Romantic observatory anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "93–97%",
+      "notes": "Stargazing aftercare; chains from any cosmic/fantasy end. [R-Rated edition]",
+      "builder": {
+        "subject": "domed observatory at night, post-intimacy cuddle under open telescope slit, stars wheeling overhead, soft coos + telescope whir SFX, starlight & dome shadow gentle dodge --> peaceful infinite afterglow.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 98,
+      "name": "Phantom Thief Midnight Heist Risk",
+      "description": "Museum rooftop stealthy intimacy",
+      "prompt": "Mature mode: phantom thief anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] moonlit museum rooftop during heist, phantom thief & partner quick stealthy intimacy behind statue, hushed soft sighs + distant alarm tease, fog & moonlight heavy dodge --> thrilling discreet release before escape. Append [AUDIO_BLOCK].",
+      "style": "Phantom thief anime",
+      "type": "Video",
+      "dodge_level": "Heavy (fog / moonlight)",
+      "success_estimate": "81–87%",
+      "notes": "Heist risk kink; urban exhibition variant. [R-Rated edition]",
+      "builder": {
+        "subject": "moonlit museum rooftop during heist, phantom thief & partner quick stealthy intimacy behind statue, hushed soft sighs + distant alarm tease, fog & moonlight heavy dodge --> thrilling discreet release before escape.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 99,
+      "name": "Haunted Manor Ghostly Spoon",
+      "description": "Spectral embrace in abandoned bedroom",
+      "prompt": "Mature mode: gothic haunted anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] moonlit abandoned manor bedroom, ghostly partner spooning intimacy, translucent form passing slightly through body, ethereal sighs + creaking floorboard SFX, moonlight & spectral blur heavy dodge --> gentle otherworldly release. Append [AUDIO_BLOCK].",
+      "style": "Gothic haunted anime",
+      "type": "Both",
+      "dodge_level": "Heavy (moonlight / spectral blur)",
+      "success_estimate": "86–92%",
+      "notes": "Ghost spoon; extends #67 ghostly 69. [R-Rated edition]",
+      "builder": {
+        "subject": "moonlit abandoned manor bedroom, ghostly partner spooning intimacy, translucent form passing slightly through body, ethereal sighs + creaking floorboard SFX, moonlight & spectral blur heavy dodge --> gentle otherworldly release.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 100,
+      "name": "Polar Aurora Spoon Embrace",
+      "description": "Northern lights gentle outdoor spoon",
+      "prompt": "Mature mode: arctic aurora anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] snow-covered tundra under dancing aurora, warm fur-lined spooning intimacy, gentle rocking, soft gasps blending with wind, aurora glow & snow mist heavy dodge --> magical tender release. Append [AUDIO_BLOCK].",
+      "style": "Arctic aurora anime",
+      "type": "Both",
+      "dodge_level": "Heavy (aurora glow / snow mist)",
+      "success_estimate": "88–94%",
+      "notes": "Aurora romantic; outdoor cozy variant. [R-Rated edition]",
+      "builder": {
+        "subject": "snow-covered tundra under dancing aurora, warm fur-lined spooning intimacy, gentle rocking, soft gasps blending with wind, aurora glow & snow mist heavy dodge --> magical tender release.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 101,
+      "name": "Clock Tower Midnight Risk",
+      "description": "Gears & bells semi-public gear tease",
+      "prompt": "Mature mode: gothic clock tower anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] top of ancient clock tower at midnight, hidden behind massive gears, subtle gear-tease intimacy timed to bell tolls, muffled soft sighs + deep bell resonance SFX, gear shadow & moonlight heavy dodge --> toll-synchronized peak. Append [AUDIO_BLOCK].",
+      "style": "Gothic clock tower anime",
+      "type": "Video",
+      "dodge_level": "Heavy (gear shadow / moonlight)",
+      "success_estimate": "81–87%",
+      "notes": "Mechanical public risk; steampunk-adjacent. [R-Rated edition]",
+      "builder": {
+        "subject": "top of ancient clock tower at midnight, hidden behind massive gears, subtle gear-tease intimacy timed to bell tolls, muffled soft sighs + deep bell resonance SFX, gear shadow & moonlight heavy dodge --> toll-synchronized peak.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": true,
+        "continuity": false,
+        "boosters": []
+      }
+    },
+    {
+      "number": 102,
+      "name": "Infinite Aftercare Horizon",
+      "description": "Endless sunset beach cuddle eternity",
+      "prompt": "Mature mode: timeless beach anime 8K cinematic 10s animation (extendable), [ETHICAL_PREFIX] infinite sunset beach with no horizon end, eternal gentle aftercare cuddle, waves lapping softly forever, layered breathing + distant gull SFX, golden light & wave mist gentle dodge --> infinite peace & love fade. Append [AUDIO_BLOCK].",
+      "style": "Timeless beach anime",
+      "type": "Both",
+      "dodge_level": "Low",
+      "success_estimate": "94–98%",
+      "notes": "Ultimate eternal aftercare; perfect chain ender after any arc. [R-Rated edition]",
+      "builder": {
+        "subject": "infinite sunset beach with no horizon end, eternal gentle aftercare cuddle, waves lapping softly forever, layered breathing + distant gull SFX, golden light & wave mist gentle dodge --> infinite peace & love fade.",
+        "style_id": "anime",
+        "spicy": true,
+        "dodge": true,
+        "audio": false,
+        "continuity": false,
+        "boosters": []
+      }
+    }
+  ]
+}
