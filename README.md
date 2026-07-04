@@ -20,7 +20,9 @@ The prompt builder is a static React app (no build step). Serve the repo over HT
 | [master-pack-full.json](master-pack-full.json) | NSFW template data |
 | [master-pack-r-rated.json](master-pack-r-rated.json) | R-rated template data |
 
-**Local preview:** `python3 -m http.server 8000` then open `http://localhost:8000/index-nsfw.html` or `index-r.html`.
+**Local preview:** `python3 -m http.server 8000` then open `http://localhost:8000/index.html` or `index-r.html`.
+
+**Smoke test:** `./scripts/smoke_test.sh` (local) or `./scripts/smoke_test.sh https://finecomputer14451.github.io/Grok-Imagine-NSFW-Bible`
 
 **Rebuild packs:**
 - NSFW: `python3 scripts/build_nsfw_pack.py`
