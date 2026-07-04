@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate and refresh master-pack-full.json builder fields."""
 
+import argparse
 import json
 import sys
 from pathlib import Path
@@ -25,15 +26,27 @@ def validate(data: dict) -> list[str]:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="Validate pack only; do not refresh builder fields or write the file",
+    )
+    args = parser.parse_args()
+
     path = ROOT / "master-pack-full.json"
     data = json.loads(path.read_text().replace("\\~", "~"))
-    refresh_builder_fields(data)
+    if not args.check:
+        refresh_builder_fields(data)
     issues = validate(data)
     if issues:
         print("Validation issues:")
         for issue in issues:
             print(f"  - {issue}")
         raise SystemExit(1)
+    if args.check:
+        print(f"OK: {len(data['prompts'])} NSFW prompts validated")
+        return
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     print(f"Wrote {len(data['prompts'])} NSFW prompts to {path.name}")
 
