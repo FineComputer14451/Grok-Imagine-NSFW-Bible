@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from redo_refactor import refresh_builder_fields
+from pack_lib import refresh_builder_fields
 
 
 def validate(data: dict) -> list[str]:

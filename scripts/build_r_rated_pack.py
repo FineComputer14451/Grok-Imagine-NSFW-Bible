@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from redo_refactor import extract_subject
+from pack_lib import build_builder_fields, extract_subject
 
 EXPLICIT_NAME = re.compile(
     r"missionary|cowgirl|doggy|69|anal|strap|facesit|titjob|paizuri|blowjob|"
@@ -188,20 +188,6 @@ def normalize_name(name: str) -> str:
     return re.sub(r"\s+", " ", (name or "").lower().strip())
 
 
-def build_builder(entry: dict, subject: str) -> dict:
-    b = deepcopy(entry.get("builder", {}))
-    b["subject"] = rated_transform(subject)
-    b["spicy"] = True
-    b["dodge"] = True
-    b["audio"] = "video" in entry.get("type", "").lower()
-    b["continuity"] = "[CONTINUITY_LOCK]" in entry.get("prompt", "")
-    if b.get("style_id") == "hentai":
-        b["style_id"] = "anime"
-    if b.get("style_id") == "semi-real":
-        b["style_id"] = "anime"
-    return b
-
-
 def main() -> None:
     full = json.loads((ROOT / "master-pack-full.json").read_text())
     adapted = []
@@ -215,7 +201,7 @@ def main() -> None:
         subject = extract_subject(item["prompt"])
         if len(subject) < 40:
             subject = item["description"]
-        item["builder"] = build_builder(entry, subject)
+        item["builder"] = build_builder_fields(entry, subject, transform=rated_transform)
         item["notes"] = (rated_transform(item.get("notes", "")) + " [R-Rated edition]").strip()
         adapted.append(item)
 
@@ -224,15 +210,12 @@ def main() -> None:
     for template in NEW_R_RATED:
         item = deepcopy(template)
         item["number"] = n
-        item["builder"] = {
-            "subject": rated_transform(extract_subject(template["prompt"])),
-            "style_id": "anime",
-            "spicy": True,
-            "dodge": True,
-            "audio": "video" in template["type"].lower(),
-            "continuity": False,
-            "boosters": ["romantic", "cinema"],
-        }
+        item["builder"] = build_builder_fields(
+            template,
+            extract_subject(template["prompt"]),
+            transform=rated_transform,
+        )
+        item["builder"]["boosters"] = ["romantic", "cinema"]
         rated_prompts.append(item)
         n += 1
 

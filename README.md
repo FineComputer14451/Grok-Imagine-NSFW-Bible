@@ -12,9 +12,11 @@ The prompt builder is a static React app (no build step). Serve the repo over HT
 | File | Edition |
 |------|---------|
 | [index.html](index.html) | Full NSFW Bible (237 templates) — default entry |
-| [index-nsfw.html](index-nsfw.html) | Full NSFW Bible (explicit edition alias) |
+| [index-nsfw.html](index-nsfw.html) | Redirect alias → `index.html` |
 | [index-r.html](index-r.html) | R-Rated cinematic mature edition (102 templates) |
-| [app.js](app.js) | Shared React app (edition set via `window.GROK_ARCHITECT_CONFIG`) |
+| [app.js](app.js) | App shell and tab routing |
+| [config/nsfw.json](config/nsfw.json), [config/r-rated.json](config/r-rated.json) | Edition metadata (single source of truth) |
+| [edition.js](edition.js), [prompt-engine.js](prompt-engine.js), [ui-components.js](ui-components.js) | Edition presets, prompt engine, UI tabs |
 | [master-pack-full.json](master-pack-full.json) | NSFW template data |
 | [master-pack-r-rated.json](master-pack-r-rated.json) | R-rated template data |
 

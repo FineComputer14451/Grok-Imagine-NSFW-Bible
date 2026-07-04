@@ -3,65 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grok Imagine Architect v2.5</title>
-    
-    <!-- Tailwind CSS -->
+    <title>Grok Imagine Architect — NSFW</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- React & ReactDOM -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    
-    <!-- Babel for JSX -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-
     <style>
-        body {
-            background-color: #000000;
-            font-family: 'Inter', sans-serif;
-            -webkit-font-smoothing: antialiased;
-        }
+        body { background-color: #000000; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
         ::-webkit-scrollbar { width: 8px; height: 8px; }
         ::-webkit-scrollbar-track { background: #111; }
         ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: #555; }
-        
-        /* Animation Utilities */
         .animate-in { animation: fadeIn 0.2s ease-out forwards; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
     </style>
 </head>
 <body>
     <div id="root"></div>
-
     <script>
-        window.GROK_ARCHITECT_CONFIG = {
-            edition: 'nsfw',
-            masterPackUrl: 'master-pack-full.json',
-            title: 'Grok Imagine Architect — NSFW',
-            versionLabel: 'v2.5 • NSFW Bible v4.4 (Feb 2026)',
-            modeLabel: 'Spicy Mode',
-            modePrefix: 'Spicy mode',
-            bibleVersion: 'Bible v4.4',
-            footerDate: 'Feb 04, 2026',
-            alternateEdition: { label: 'R-Rated Edition', href: 'index-r.html' },
-            subjectPlaceholder: 'Describe scene... (e.g. legs high missionary, deep rhythmic pulsing union)',
-            sequencePlaceholder: "Describe the core scene context (e.g. 'candlelit bedroom, legs high missionary position, intense eye contact'). This will be used as the anchor for all phases.",
-            principles: [
-                { title: 'Post-Release Reality', text: 'Anime/Stylized is 80-95% reliable. Photoreal is ~5-15% (avoid).' },
-                { title: 'Ethical Prefix', text: 'Mandatory consent markers required for all Spicy Mode prompts.' },
-                { title: 'Dodge Layer', text: 'Use [ULTIMATE_DODGE_LAYER] for mist, shadow, and artistic implication on explicit zones.' },
-                { title: 'Chain Strategy', text: 'Use Phase Blocks to build arcs: Tease → Build → Peak → Aftercare.' },
-                { title: 'Timing', text: 'Success rates heavily dependent on server load (off-peak EST recommended).' },
-            ],
-        };
+        window.GROK_ARCHITECT_CONFIG_PROMISE = fetch('config/nsfw.json').then((r) => {
+            if (!r.ok) throw new Error('Failed to load edition config');
+            return r.json();
+        });
     </script>
+    <script type="text/babel" src="icons.js"></script>
+    <script src="edition.js"></script>
+    <script src="prompt-engine.js"></script>
+    <script type="text/babel" src="ui-components.js"></script>
     <script type="text/babel" src="app.js"></script>
-
 </body>
 </html>
-
-

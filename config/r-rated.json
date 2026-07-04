@@ -1,0 +1,20 @@
+{
+  "edition": "r-rated",
+  "masterPackUrl": "master-pack-r-rated.json",
+  "title": "Grok Imagine Architect — R-Rated",
+  "versionLabel": "v1.0 • R-Rated Bible (Jun 2026)",
+  "modeLabel": "Mature Mode",
+  "modePrefix": "Mature mode",
+  "bibleVersion": "R-Rated v1.0",
+  "footerDate": "Jun 23, 2026",
+  "alternateEdition": { "label": "Full NSFW Edition", "href": "index.html" },
+  "subjectPlaceholder": "Describe scene... (e.g. rain-streaked window kiss, slow embrace, intense eye contact)",
+  "sequencePlaceholder": "Describe the core scene context (e.g. 'candlelit bedroom, slow dance embrace, intense eye contact'). This will be used as the anchor for all phases.",
+  "principles": [
+    { "title": "R-Rated Framing", "text": "Passionate romance and implied sensuality — no explicit pornographic positioning or filter-bypass cheat sheets." },
+    { "title": "Ethical Prefix", "text": "Mandatory consent and aftercare markers on all Mature Mode prompts." },
+    { "title": "Implication Layer", "text": "Use [DODGE_LAYER] for silhouette, shadow, sheet drape, and cutaway techniques." },
+    { "title": "Style Guidance", "text": "Anime and cinematic stylized work best (~90%+). Avoid photoreal and hentai for this edition." },
+    { "title": "Chain Strategy", "text": "Tease → Build → Peak → Aftercare arcs tuned for emotional slow-burn romance." }
+  ]
+}
