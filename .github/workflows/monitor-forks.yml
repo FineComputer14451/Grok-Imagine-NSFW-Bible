@@ -1,0 +1,136 @@
+name: Monitor Repository Forks
+
+on:
+  schedule:
+    # Every Monday at 09:00 UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch:  # Manual trigger
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  monitor-forks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch current forks
+        id: fetch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Fetching forks for ${{ github.repository }}..."
+          
+          # Get all forks, sorted by most recently updated
+          gh api "repos/${{ github.repository }}/forks?sort=updated&per_page=100" \
+            --paginate \
+            --jq '[.[] | {full_name, html_url, created_at, updated_at, stargazers_count, forks_count, open_issues_count, owner: .owner.login}]' \
+            > current_forks.json
+
+          FORK_COUNT=$(jq 'length' current_forks.json)
+          echo "fork_count=$FORK_COUNT" >> $GITHUB_OUTPUT
+          echo "Found $FORK_COUNT forks"
+
+      - name: Generate report and detect new forks
+        id: report
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Load previous state if it exists
+          if [ -f .github/fork-monitor/state.json ]; then
+            PREVIOUS=$(cat .github/fork-monitor/state.json)
+          else
+            PREVIOUS="[]"
+          fi
+
+          # Create report
+          {
+            echo "## 📊 Fork Monitor Report"
+            echo ""
+            echo "**Repository:** \`${{ github.repository }}\`"
+            echo "**Generated:** $(date -u +"%Y-%m-%d %H:%M UTC")"
+            echo "**Total forks:** $(jq 'length' current_forks.json)"
+            echo ""
+            echo "### Current Forks (most recently updated first)"
+            echo ""
+            echo "| Fork | Owner | Stars | Updated | Created |"
+            echo "|------|-------|-------|---------|---------|"
+            
+            jq -r '.[] | "| [\(.full_name)](\(.html_url)) | \(.owner) | \(.stargazers_count) | \(.updated_at[:10]) | \(.created_at[:10]) |"' current_forks.json
+            
+            echo ""
+            echo "---"
+            echo ""
+            echo "### 🆕 New Forks Since Last Check"
+            echo ""
+            
+            # Detect new forks
+            NEW_FORKS=$(jq --argjson prev "$PREVIOUS" '
+              [.[] | select(.full_name as $name | ($prev | map(.full_name) | index($name) | not))]
+            ' current_forks.json)
+            
+            NEW_COUNT=$(echo "$NEW_FORKS" | jq 'length')
+            
+            if [ "$NEW_COUNT" -eq 0 ]; then
+              echo "_No new forks detected._"
+            else
+              echo "Found **$NEW_COUNT** new fork(s):"
+              echo ""
+              echo "$NEW_FORKS" | jq -r '.[] | "- [\(.full_name)](\(.html_url)) (created \(.created_at[:10]))"'
+            fi
+            
+            echo ""
+            echo "---"
+            echo "_This issue is automatically updated by the Fork Monitor workflow._"
+          } > report.md
+
+          # Save current state for next run
+          mkdir -p .github/fork-monitor
+          cp current_forks.json .github/fork-monitor/state.json
+          
+          echo "new_count=$NEW_COUNT" >> $GITHUB_OUTPUT
+
+      - name: Create or update tracking issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ISSUE_TITLE="🔄 Fork Monitor Report"
+          
+          # Check if an open tracking issue already exists
+          ISSUE_NUMBER=$(gh issue list --search "in:title \"$ISSUE_TITLE\"" --state open --json number --jq '.[0].number // empty')
+          
+          if [ -z "$ISSUE_NUMBER" ]; then
+            echo "Creating new tracking issue..."
+            gh issue create \
+              --title "$ISSUE_TITLE" \
+              --body-file report.md \
+              --label "monitoring,automated" || gh issue create \
+              --title "$ISSUE_TITLE" \
+              --body-file report.md
+          else
+            echo "Updating existing issue #$ISSUE_NUMBER..."
+            gh issue edit "$ISSUE_NUMBER" --body-file report.md
+            
+            # Add a comment if there are new forks
+            if [ "${{ steps.report.outputs.new_count }}" -gt 0 ]; then
+              gh issue comment "$ISSUE_NUMBER" --body "🚨 **${{ steps.report.outputs.new_count }} new fork(s)** detected in the latest scan."
+            fi
+          fi
+
+      - name: Commit updated state
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add .github/fork-monitor/state.json || true
+          
+          if git diff --staged --quiet; then
+            echo "No state changes to commit"
+          else
+            git commit -m "chore: update fork monitor state [skip ci]"
+            git push
+          fi
