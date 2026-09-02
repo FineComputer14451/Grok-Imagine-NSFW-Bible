@@ -1,0 +1,25 @@
+name: Pack audit
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Apply public-pack compliance cut
+        run: python3 scripts/apply_compliance_cut.py
+      - name: Token audit public NSFW pack
+        run: python3 scripts/audit_pack.py
+      - name: Validate NSFW pack structure
+        run: python3 scripts/build_nsfw_pack.py --check
+      - name: Smoke static assets
+        run: |
+          python3 -m http.server 8765 >/tmp/http.log 2>&1 &
+          sleep 1
+          ./scripts/smoke_test.sh http://localhost:8765

@@ -7,7 +7,7 @@
   "modePrefix": "Mature mode",
   "bibleVersion": "R-Rated v1.0",
   "footerDate": "Jun 23, 2026",
-  "alternateEdition": { "label": "Full NSFW Edition", "href": "index.html" },
+  "alternateEdition": { "label": "Full NSFW Edition", "href": "index-nsfw.html" },
   "subjectPlaceholder": "Describe scene... (e.g. rain-streaked window kiss, slow embrace, intense eye contact)",
   "sequencePlaceholder": "Describe the core scene context (e.g. 'candlelit bedroom, slow dance embrace, intense eye contact'). This will be used as the anchor for all phases.",
   "principles": [

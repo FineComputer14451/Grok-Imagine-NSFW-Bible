@@ -2,11 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=index.html">
-    <title>Grok Imagine Architect — NSFW Edition</title>
-    <script>location.replace('index.html');</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grok Imagine Architect — NSFW</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #000000; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #111; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #555; }
+        .animate-in { animation: fadeIn 0.2s ease-out forwards; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
 </head>
 <body>
-    <p><a href="index.html">Continue to NSFW Edition</a></p>
+    <div id="root"></div>
+    <script>
+        window.GROK_ARCHITECT_CONFIG_PROMISE = fetch('config/nsfw.json').then((r) => {
+            if (!r.ok) throw new Error('Failed to load edition config');
+            return r.json();
+        });
+    </script>
+    <script type="text/babel" src="icons.js"></script>
+    <script src="edition.js"></script>
+    <script src="prompt-engine.js"></script>
+    <script type="text/babel" src="ui-shared.js"></script>
+    <script type="text/babel" src="ui-builder-tab.js"></script>
+    <script type="text/babel" src="ui-sequence-tab.js"></script>
+    <script type="text/babel" src="ui-logger-tab.js"></script>
+    <script type="text/babel" src="ui-resources-tab.js"></script>
+    <script type="text/babel" src="app.js"></script>
 </body>
 </html>

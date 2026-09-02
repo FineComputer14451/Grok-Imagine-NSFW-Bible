@@ -14,8 +14,8 @@ from pack_lib import refresh_builder_fields
 def validate(data: dict) -> list[str]:
     issues = []
     prompts = data.get("prompts", [])
-    if len(prompts) != 237:
-        issues.append(f"expected 237 prompts, got {len(prompts)}")
+    if len(prompts) != 231:
+        issues.append(f"expected 231 prompts, got {len(prompts)}")
     for entry in prompts:
         subject = entry.get("builder", {}).get("subject", "")
         if "Append ." in subject:
