@@ -12,6 +12,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Apply public-pack compliance cut
+        run: python3 scripts/apply_compliance_cut.py
       - name: Token audit public NSFW pack
         run: python3 scripts/audit_pack.py
       - name: Validate NSFW pack structure
