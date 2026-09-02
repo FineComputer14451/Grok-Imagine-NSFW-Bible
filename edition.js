@@ -50,7 +50,7 @@ const EDITION_PRESETS = {
             { risk: /\b(nipples|tits|boobs)\b/i, safe: 'curves' },
         ],
         extraSources: [
-            { title: 'R-Rated Bible (Cinematic Mature Edition)', url: 'index-r.html' },
+            { title: 'R-Rated Bible (Cinematic Mature Edition)', url: 'index.html' },
         ],
     },
     'r-rated': {
@@ -69,7 +69,7 @@ const EDITION_PRESETS = {
         },
         riskyReplacements: [],
         extraSources: [
-            { title: 'Full NSFW Bible (Explicit Edition)', url: 'index.html' },
+            { title: 'Full NSFW Bible (Explicit Edition)', url: 'index-nsfw.html' },
         ],
     },
 };
