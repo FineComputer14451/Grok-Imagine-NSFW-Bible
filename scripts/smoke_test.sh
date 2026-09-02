@@ -55,8 +55,9 @@ html = fetch("index.html").decode()
 
 assert nsfw["edition"] == "nsfw", nsfw["edition"]
 assert rated["edition"] == "r-rated", rated["edition"]
-assert len(full["prompts"]) == 237, len(full["prompts"])
+assert len(full["prompts"]) == 231, len(full["prompts"])
 assert len(rr["prompts"]) == 102, len(rr["prompts"])
+assert "config/r-rated.json" in html, "default index.html must load R-rated config"
 
 for script in (
     "ui-shared.js",
@@ -69,7 +70,8 @@ for script in (
     assert f'src="{script}"' in html, script
 
 print(f"OK   config editions: nsfw + r-rated")
-print(f"OK   pack counts: {len(full['prompts'])} NSFW, {len(rr['prompts'])} R-rated")
+print(f"OK   pack counts: {len(full['prompts'])} NSFW (public), {len(rr['prompts'])} R-rated")
+print("OK   default index.html is R-rated edition")
 print(f"OK   index.html loads split UI modules")
 PY
 

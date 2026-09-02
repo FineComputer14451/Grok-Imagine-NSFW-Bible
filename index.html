@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grok Imagine Architect — NSFW</title>
+    <title>Grok Imagine Architect — R-Rated Edition</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
@@ -22,7 +22,7 @@
 <body>
     <div id="root"></div>
     <script>
-        window.GROK_ARCHITECT_CONFIG_PROMISE = fetch('config/nsfw.json').then((r) => {
+        window.GROK_ARCHITECT_CONFIG_PROMISE = fetch('config/r-rated.json').then((r) => {
             if (!r.ok) throw new Error('Failed to load edition config');
             return r.json();
         });
